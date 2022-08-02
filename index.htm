@@ -1,0 +1,317 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welcome to Tianyi Li's Homepage</title>
+    <meta name="description" content="Homepage of Tianyi Li" />
+    <meta name="keywords" content="Tianyi Li, Homepage, Department of Computer Science, Aalborg University" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <style type="text/css">
+        body {
+            font-family:Arial,'Times New Roman','Microsoft YaHei',SimHei;
+            font-size: 12pt;
+            min-width: 1200px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        p {
+            margin: 0px;
+        }
+
+        .clr1 {
+            color: #0476d6;
+        }
+
+        .seperate-line {
+            border: 0.5px solid #666666;
+            width="100%";
+            margin: 10px auto;
+        }
+
+        h2 {
+            margin: 0;
+        }
+
+        .contentWrap {
+            padding-left: 20px;
+            padding-top: 10px;
+        }
+
+        .contentWrap h3 {
+            margin: 20px auto 15px auto;
+            font-size: 15pt;
+            font-weight: bold;
+        }
+
+        a {
+            color: #0476d6;
+        }
+
+        /*
+        #pub ul li,
+        #project ul li {
+            margin-top: 10px;
+        }*/
+
+        /*
+        #pub ul li a {
+            font-weight: bold;
+        }*/
+
+        #navigator a {
+            font-size: 10pt;
+            text-decoration: none;
+            margin: 10px 10px;
+            font-weight: bold;
+        }
+
+        .time {
+            color: red;
+        }
+
+        /*
+        .link {
+            margin-right: 10px;
+        }
+*/
+/*
+        #pub ol li {
+            margin: 10px 0;
+        }
+*/
+        #pub ol {
+            counter-reset: list;
+            margin-left: 20px;
+        }
+
+        #pub ol li {
+            list-style-type: none;
+            position: relative;
+            margin: 10px 0;
+        }
+
+        #pub ol li:before {
+            counter-increment: list;
+            position: absolute;
+            margin-top:2px;
+            left: -50px;
+        }
+
+        .book li:before{
+            content: "[B" counter(list, decimal) "]";
+        }
+
+        .rj li:before{
+            content: "[P" counter(list, decimal) "]";
+        }
+
+        .rc li:before{
+            content: "[T" counter(list, decimal) "]";
+        }
+
+        #pub ol,#service ul{
+            margin-bottom: 30px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!--
+    color: #5A82A4;
+
+    Verdana, Arial, Helvetica, sans-serif;
+    -->
+    <!--
+    <p style="float: left;display: block">Last Updated: April 28th, 2018</p>
+-->
+
+<!--    <div class="seperate-line"></div>-->
+    <hr/>
+    <div id="navigator" style="text-align: center">
+        <!--style="color: white;background-color: #0476d6"-->
+        <a href="./index.htm">Home</a>
+
+        <a href="#pub">Publications</a>
+       
+        <a href="#service">Services</a>
+        <a href="#teaching">Teaching</a>
+
+    </div>
+<hr/>
+<!--    <div class="seperate-line"></div>-->
+
+    <!--[if lte IE 7]>
+       <h2 style="color:red;text-align:center">The version of your browser is too old and has stopped maintaining，please upgrade your browser or try another one(Chrome is recommended)</h2>
+<![endif]-->
+    <!--您的浏览器版本过低并已停止升级维护，IE7及以下版本不支持新样式，请更新浏览器或使用其他浏览器（推荐使用Chrome）-->
+
+    <div id="personal-info" width="100%">
+        <table width="96%" style="margin: 30px 20px 20px 30px;font-size: 11pt;">
+            <tbody>
+                <tr></tr>
+                <tr>
+                    <td width="140px">
+                        <img src="./images/tianyi.jpg" width="140px">
+                    </td>
+                    <td style="padding-left: 40px">
+                        <h2 class="clr1" style="margin: 0 0 15px 0">Tianyi Li (李天义)</h2>
+                        <h3 style="font-weight: bold;">Assistant Professor, Ph.D.</h3>
+
+                        <a href="https://www.cs.aau.dk/">Department of Computer Science,</a><br/>
+                        <a href="https://www.en.aau.dk/">Aalborg University,</a><br/>Selma Lagerlöfs Vej 300 DK-9220, Aalborg Øst, Denmark
+
+                        <br/><br/>
+                        <b>E-mail:</b>&nbsp;tianyi [at] cs.aau.dk
+
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <hr/>
+    <div id="bio" class="contentWrap">
+        <h3>About Me</h3>
+        <p style="line-height:1.4"> I am an assistant professor with the Department of Computer Science, <a href="https://www.en.aau.dk/">Aalborg University</a>, Denmark. I recieved the Ph.D. degree from Aalborg University, Denmark, in January 2022, under the supervision of <a href="http://people.cs.aau.dk/~csj"> Prof. Christian S. Jensen</a>, <a href="http://people.cs.aau.dk/~tbp"> Prof. Torben Bach Pedersen</a>, and <a href="https://person.zju.edu.cn/en/luchen"> Prof. Lu Chen</a>. From April 2018 to September 2018, I was an research assistant in Aalborg University, Denmark. I received the M.Sc. degree and the B.Sc. degree from <a href="http://www.neu.edu.cn/"> Northeastern University</a>, China, in 2014 and 2017, respectively.</p>
+    </div>
+
+
+
+    <div id="research-interests" class="contentWrap">
+        <h3>Research Interests</h3>
+        <p>My primary research areas are Database and Big Data Management and Analytics. Specifically, my current research interests are as follows: </p>
+        <ul>
+            <li>Spatiotemporal Database</li>
+            <li>Big Graph Data Mining</li>
+            <li>Data Quality</li>
+            <li>Parallel and Distributed Processing</li>
+            <li>Digital Twin</li>
+        </ul>
+    </div>
+
+    <hr/>
+
+
+    <div id="pub" class="contentWrap">
+
+        <h3>Publications</h3>
+
+        <a href="https://scholar.google.com/citations?hl=da&user=NeeHV-IAAAAJ"> google scholar entry </a>
+
+ <p style="margin-top: 20px;"><span style="font-weight: bold;color: #0476d6">[Selected Conference and Journal Papers]</span>&nbsp;&nbsp;</p>
+
+<ol class="rj">
+<li><b>Tianyi Li</b>, Lu Chen, Christian S. Jensen, Torben Bach Pedersen, Jilin Hu. <br/>
+<p>Evolutionary Clustering of Moving Objects. (<b>Best Paper Award</b>)</p>
+<p><i>The 36th IEEE International Conference on Data Engineering</i> (<i><b>ICDE</b></i>), 2022.</p>
+</li>
+
+<li>Yunjun Gao, Xiaoze Liu, Jingxuan Wu, <b>Tianyi Li</b>, Pengfei Wang, Lu Chen.<br/>
+<p>ClusterEA: Scalable Entity Alignment with Stochastic Training and Normalized Mini-batch Similarities.</p>
+<p><i>The 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining</i> (<i><b>SIGKDD</b></i>), 2022.</p>
+</li>
+
+<li>Yushuai Li, <b>Tianyi Li</b>, Huaguang Zhang, Xiangpeng Xie, Qiuye Sun.<br/>
+                <p>Distributed Resilient Double-Gradient-Descent Based Energy Management Strategy for Multi-Energy System under DoS Attacks.</p>
+                <p><i>IEEE Transactions on Network Science and Engineering</i> (<i><b>TNSE</b></i>), 2022.</p>
+            </li>
+
+                <li><b>Tianyi Li</b>, Lu Chen, Christian S. Jensen, Torben Bach Pedersen. <br/>
+                <p>TRACE: Real-time Compression of Streaming Trajectories in Road Networks.<a href="http://vldb.org/pvldb/vol14/p1175-chen.pdf"> [Paper]</a></p>
+                <p><i>The 48th International Conference on Very Large Data Bases </i> (<i><b>PVLDB</b></i>), 2021 </p>
+            </li>
+
+            <li><b>Tianyi Li</b>, Ruikai Huang, Lu Chen, Christian S. Jensen, Torben Bach Pedersen.<br/>
+                <p>Compression of Uncertain Trajectories in Road Networks. <a href="http://www.vldb.org/pvldb/vol13/p1050-li.pdf"> [Paper]</a></p>
+                <p><i>The 47th International Conference on Very Large Data Bases </i> (<i><b>PVLDB</b></i>), 2020.</p>
+            </li>
+
+            <li><b>Tianyi Li</b>, Yu Gu, Xiangmin Zhou, Qian Ma, Ge Yu.<br/>
+                <p>An Effective and Efficient Truth Discovery Framework over Data Streams. <a href="https://openproceedings.org/2017/conf/edbt/paper-41.pdf"> [Paper]</a></p>
+                <p><i>The 20th International Conference on Extending Database Technology</i> (<i><b>EDBT</b></i>), 2017.</p>
+            </li>
+
+          
+ </ol>
+
+<p style="margin-top: 20px;"><span style="font-weight: bold;color: #0476d6">[Thesis]</span>&nbsp;&nbsp;</p>
+
+<ol class="rc">
+
+<li><b>Tianyi Li</b>. Aspects of Spatial Trajectory Data Management-Compression and Clustering, 2021. Aalborg University. <a href="https://vbn.aau.dk/ws/portalfiles/portal/466212155/PHD_TL_E_pdf.pdf"> [Thesis]</a>
+            </li>
+
+
+        </ol>
+    </div>
+
+ 
+
+    <div id="service" class="contentWrap">
+        <h3>Academic Services</h3>
+
+       
+
+        <p style="margin-top: 20px;font-weight: bold;color: #0476d6">[Selected Journal Reviewer]</p>
+        <ul>
+            <li>The VLDB Journal (VLDBJ)</li>
+            <li>IEEE Transactions on Knowledge and Data Engineering (TKDE)</li>
+	    <li>IEEE Transactions on Emerging Topics in Computational Intelligence (TETCI)</li>
+	    <li>IEEE Transactions on Circuits and Systems II (TCAS II)</li>
+ 	    <li>International Transactions on Electrical Energy Systems</li>
+            <li>Transactions in GIS</li>
+            <li>Mobile Information Systems</li>
+          
+        </ul>
+
+        <p style="margin-top: 20px;font-weight: bold;color: #0476d6">[Conference Program Committee Member]</p>
+        <ul>
+		<li>CIKM 2022</li>
+		<li>AAAI 2023</li>
+		
+        </ul>
+    </div>
+
+    <!--
+    <div id="code" class="contentWrap">
+        <h3>Codes</h3>
+        <a href="./code.html"  >[Full List]</a>
+        <ul>
+            <li>
+                Complex Multimedia Content Analysis, Recommendation and Demonstration in Big Data (Key program of NSFC, 2015-2019).
+                <a href="">[download]</a>
+            </li>
+
+        </ul>
+
+    </div>
+-->
+
+    <hr/>
+
+    <div id="teaching" class="contentWrap">
+        <h3>Teaching</h3>
+        <ul>
+<li>Lecturer, Algorithm and Data Structures, Fall 2022</li>
+<li>Bachelor Group Project Supervisor, DAT1/SW1, Fall 2020, Fall 2021</li>
+            <li>Teaching Assistant, Mobile Software and Technology, Spring 2019, Spring 2020</li>
+            <li>Bachelor Group Project Supervisor, BAIT4/INF4, Spring 2019</li>
+            <li>Bachelor Group Project Supervisor, DAT3/SW3, Fall 2018</li>
+            <li>Teaching Assistant, Algorithm and Data Structures, Fall 2018</li>
+        </ul>
+    </div>
+
+
+    <hr/>
+   <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=n&d=sqJ2aWfLDhyiP5UedpMQ6rTI4AO99yuWDg1fKk8I7u8'></script>
+    <p>Last Updated: Jan 30th, 2020</p>
+
+</body>
+
+</html> 
