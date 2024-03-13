@@ -1,0 +1,12 @@
+students:
+    - name: "Xiushang Wu"
+      time: "December 2023 to present"
+      type: "PhD Student"
+      topic: "Trajectory data cleaning"
+
+    - name: "Hengyu Liu"
+      time: "December 2023 to present"
+      type: "Postdoc Researcher (Joint advisors: Kristian Torp and Christian S. Jensen)"
+      topic: " Maritime Data Analysis"
+      link: https://hengyuliu.com/
+    

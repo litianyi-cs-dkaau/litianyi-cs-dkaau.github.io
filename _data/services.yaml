@@ -1,0 +1,9 @@
+services:
+  - title: "The 29th International Conference on Database System for Advanced Applications (DASFAA 2024)"
+    role: PC Member
+    conference: y
+
+  - title: "Sustainability: Special Issue \"Renewable and Sustainable Energy Systems: Architecture, Methodology and Technology, 2nd Edition\""
+    role: Leading Guest Editor
+    journal: y
+  

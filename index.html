@@ -1,416 +1,373 @@
-﻿<!DOCTYPE html>
-<html>
+---
+layout: default
+title: Home
+---
+<!-- ========== BIO ========== -->
+<div class="docs-section" id="bio">
+  <h4>Bio</h4>
+  <p style="line-height:1.4"> I am a tenure-track assistant professor with Department of Computer Science, <a href="https://www.en.aau.dk/">Aalborg University</a>, Denmark. 
+I am a member of <a href="https://www.cs.aau.dk/research/Data-Engineering-Science-and-Systems"> Data Engineering, Science and Systems (DESS)</a> group. 
+I recieved the Ph.D. degree from Aalborg University, Denmark, in 2022, under the supervision of <a href="http://people.cs.aau.dk/~csj"> Prof. Christian S. Jensen</a>, <a href="https://person.zju.edu.cn/en/luchen"> Prof. Lu Chen</a>, and <a href="http://people.cs.aau.dk/~tbp"> Prof. Torben Bach Pedersen</a>. 
+I won several awards including <a href="https://icde2022.ieeecomputer.my/best-papers/">ICDE 2022 Best Paper</a>, NDBC 2022 One of the Best Papers, and ICCSIE 2022 Best Paper.
+I have served on the Program Committees of top conferences including ICDE, KDD, AAAI, etc, and as a reviewer of prestigious journals including VLDBJ, TKDE, TNSE, etc.  </p>
 
-<head>
-    <title>Welcome to Tianyi Li's Homepage</title>
-    <meta name="description" content="Homepage of Tianyi Li" />
-    <meta name="keywords" content="Tianyi Li, Homepage, Department of Computer Science, Aalborg University" />
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta http-equiv="pragma" content="no-cache" />
-    <style type="text/css">
-        body {
-            font-family:Calibri,'Times New Roman','Microsoft YaHei',SimHei;
-            font-size: 12pt;
-            min-width: 1200px;
-        }
+  <h4>Research Interests</h4>
+  <p>My primary research areas are Big Data Management and Database. Specifically, my current research interests are as follows: </p>
+  <ul>
+      <li>Spatio-temporal Data Management and Analytics</li>
+      <li>Database</li>
+      <li>Knowledge Graph</li>
+      <li>Data Quality</li>
+  
+  </ul>
+</div>
 
-        a {
-            text-decoration: none;
-        }
 
-        p {
-            margin: 0px;
-        }
+<div class="docs-section" id="publications">
+  <h4>Publications</h4>
 
-        .clr1 {
-            color: #0476d6;
-        }
+  <p>Most recent publications on <a href="https://scholar.google.com/citations?user=NeeHV-IAAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a> or <a href="https://dblp.org/pid/85/11154-5.html" target="_blank">DBLP</a>.</p>
 
-        .seperate-line {
-            border: 0.5px solid #666666;
-            width="100%";
-            margin: 10px auto;
-        }
+  <ul class="tab-nav">
+    <li><div class="button active" data-ref="#papers-sel">Selected and Recent Papers</div></li>
+    <li><div class="button" data-ref="#papers-all">All</div></li>    
+    <li><div class="button" data-ref="#papers-cf">Conference</div></li>
+    <li><div class="button" data-ref="#papers-journal">Jouranl</div></li>
+    <li><div class="button" data-ref="#papers-2024">2024</div></li>
+    <li><div class="button" data-ref="#papers-2023">2023</div></li>
+    <li><div class="button" data-ref="#papers-before2023">Before 2023</div></li>
+  </ul>
 
-        h2 {
-            margin: 0;
-        }
-
-        .contentWrap {
-            padding-left: 20px;
-            padding-top: 10px;
-        }
-
-        .contentWrap h3 {
-            margin: 20px auto 15px auto;
-            font-size: 15pt;
-            font-weight: bold;
-        }
-
-        a {
-            color: #0476d6;
-        }
-
-        /*
-        #pub ul li,
-        #project ul li {
-            margin-top: 10px;
-        }*/
-
-        /*
-        #pub ul li a {
-            font-weight: bold;
-        }*/
-
-        #navigator a {
-            font-size: 10pt;
-            text-decoration: none;
-            margin: 10px 10px;
-            font-weight: bold;
-        }
-
-        .time {
-            color: red;
-        }
-
-        /*
-        .link {
-            margin-right: 10px;
-        }
-*/
-/*
-        #pub ol li {
-            margin: 10px 0;
-        }
-*/
-        #pub ol {
-            counter-reset: list;
-            margin-left: 20px;
-        }
-
-        #pub ol li {
-            list-style-type: none;
-            position: relative;
-            margin: 10px 0;
-        }
-
-        #pub ol li:before {
-            counter-increment: list;
-            position: absolute;
-            margin-top:2px;
-            left: -50px;
-        }
-
-        .book li:before{
-            content: "[B" counter(list, decimal) "]";
-        }
-
-        .rj li:before{
-            content: "[P" counter(list, decimal) "]";
-        }
-
-        .rc li:before{
-            content: "[T" counter(list, decimal) "]";
-        }
-
-        #pub ol,#service ul{
-            margin-bottom: 30px;
-        }
-
-    </style>
-</head>
-
-<body>
-    <!--
-    color: #5A82A4;
-
-    Verdana, Arial, Helvetica, sans-serif;
-    -->
-    <!--
-    <p style="float: left;display: block">Last Updated: April 28th, 2018</p>
--->
-
-<!--    <div class="seperate-line"></div>-->
-    <hr/>
-    <div id="navigator" style="text-align: center">
-        <!--style="color: white;background-color: #0476d6"-->
-        <a href="./index.htm">Home</a>
-        <a href="#pub">Publications</a> 
-	 <a href="#award">Awards</a> 
-	     <a href="#student">Students</a> 
-        <a href="#service">Services</a>
-        <a href="#teaching">Teaching</a>
-
-    </div>
-<hr/>
-<!--    <div class="seperate-line"></div>-->
-
-    <!--[if lte IE 7]>
-       <h2 style="color:red;text-align:center">The version of your browser is too old and has stopped maintaining，please upgrade your browser or try another one(Chrome is recommended)</h2>
-<![endif]-->
-    <!--您的浏览器版本过低并已停止升级维护，IE7及以下版本不支持新样式，请更新浏览器或使用其他浏览器（推荐使用Chrome）-->
-
-    <div id="personal-info" width="100%">
-        <table width="96%" style="margin: 30px 20px 20px 30px;font-size: 11pt;">
-            <tbody>
-                <tr></tr>
-                <tr>
-                    <td width="140px">
-                        <img src="./images/tianyi.jpg" width="140px">
-                    </td>
-                    <td style="padding-left: 40px">
-                        <h2 class="clr1" style="margin: 0 0 15px 0">Tianyi Li (李天义)</h2>
-                        <h3 style="font-weight: bold;">Assistant Professor, Ph.D.</h3>
-
-                        <a href="https://www.cs.aau.dk/">Department of Computer Science</a><br/>
-                        <a href="https://www.en.aau.dk/">Aalborg University</a><br/>3.2.33, Selma Lagerlöfs Vej 300 DK-9220, Aalborg Øst, Denmark
-
-                        <br/><br/>
-                        <b>E-mail:</b>&nbsp;tianyi [at] cs.aau.dk
-
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+  <div class="tab-content">
+    <div class="tab-pane active" id="papers-sel">
+      {% assign papers = site.data.publications.papers | where: "selected", "y" %}
+      {% for paper in papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b>
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">PDF</a>
+            {% endif %}
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+          </p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+           <div class="paper-buttons">
+          </div>
+        </div>
+      {% endfor %}
     </div>
 
+    <!-- All PAPERS -->
+    <div class="tab-pane" id="papers-all">
+      {% assign papers = site.data.publications.papers %}
+      {% for paper in papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b>
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">PDF</a>
+            {% endif %}
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+          </p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+           <div class="paper-buttons">
 
-    <hr/>
-    <div id="bio" class="contentWrap">
-        <h3>About Me</h3>
-        <p style="line-height:1.4"> I am a tenure-track assistant professor with Department of Computer Science, <a href="https://www.en.aau.dk/">Aalborg University</a>, Denmark. 
-		I am a member of <a href="https://www.cs.aau.dk/research/Data-Engineering-Science-and-Systems"> Data Engineering, Science and Systems (DESS)</a> group. 
-		I recieved the Ph.D. degree from Aalborg University, Denmark, in 2022, under the supervision of <a href="http://people.cs.aau.dk/~csj"> Prof. Christian S. Jensen</a>, <a href="https://person.zju.edu.cn/en/luchen"> Prof. Lu Chen</a>, and <a href="http://people.cs.aau.dk/~tbp"> Prof. Torben Bach Pedersen</a>. 
-		I won several awards including <a href="https://icde2022.ieeecomputer.my/best-papers/">ICDE 2022 Best Paper</a>, NDBC 2022 One of the Best Papers, and ICCSIE 2022 Best Paper.
-		I have served on the Program Committees of top conferences including ICDE, KDD, AAAI, etc, and as a reviewer of prestigious journals including VLDBJ, TKDE, TNSE, etc.  </p>
+          </div>
+        </div>
+      {% endfor %}
     </div>
 
+    <!-- Conference PAPERS -->
+    <div class="tab-pane" id="papers-cf">
+      {% assign cf_papers = site.data.publications.papers | where: "conference", "y" %}
+      {% for paper in cf_papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b>
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">PDF</a>
+            {% endif %}
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+          </p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+           <div class="paper-buttons">
 
-
-    <div id="research-interests" class="contentWrap">
-        <h3>Research Interests</h3>
-        <p>My primary research areas are Big Data Management and Database. Specifically, my current research interests are as follows: </p>
-        <ul>
-            <li>Spatio-temporal Data Management and Analytics</li>
-	    <li>Database</li>
-            <li>Knowledge Graph</li>
-            <li>Data Quality</li>
-           
-        
-        </ul>
-    </div>
-	
-
-    <div id="news" class="contentWrap">
-        <h3><b>Multiple Postdoc/PhD positions in DESS group are available</b></h3>
-        <p> The positions concern aspects of the analysis of data related to moving-object mobility.  Successful applicants will work with <a href="https://homes.cs.aau.dk/~torp/"> Prof. Kristian Torp</a>, <a href="http://people.cs.aau.dk/~csj"> Prof. Christian S. Jensen</a>, and Asst. Prof. Tianyi Li.  More information can be found <a href="https://listserv.acm.org/SCRIPTS/WA-ACMLPX.CGI?A2=MOD-DBWORLD;23eb5a30.2307"> here</a>. </p>
-    </div>
-
-    <hr/>
-
-
-    <div id="pub" class="contentWrap">
-
-        <h3>Publications</h3>
-<p>
-        <a href="https://scholar.google.com/citations?hl=da&user=NeeHV-IAAAAJ"> Google Scholar entry </a> <br />
-	 <a href="https://dblp.org/pid/85/11154-5.html"> DBLP entry </a> <br />
-	
-</p>
- <p style="margin-top: 20px;"><span style="font-weight: bold;color: #0476d6">[Selected Conference and Journal Papers]</span>&nbsp;&nbsp;</p>
-
-<ol class="rj">
-		
-
-<li>Zhen Song, Yu Gu, <b>Tianyi Li*</b>, Sun Qing, Yanfeng Zhang, Christian S. Jensen, Ge Yu. <br/>
-<p>ADGNN: Towards Scalable GNN Training with Aggregation-Difference Aware Sampling. </p>
- <p>(<b>CORE A*, CCF A</b>) <i> The 2024 ACM SIGMOD/PODS International Conference on Management of Data</i> (<i><b>SIGMOD</b></i>), 2024.</p>
-</li>	
-	
-<li>Jianpeng Wei, Yu Gu, <b>Tianyi Li</b>, Jianzhong Qi, Chuanwen Li, Yanfeng Zhang, Christian S. Jensen, Ge Yu. <br/>
-<p>LTPG: Large-Batch Transaction Processing on GPUs with Deterministic Concurrency Control. </p>
- <p>(<b>CORE A*, CCF A</b>) <i> The 40th IEEE International Conference on Data Engineering</i> (<i><b>ICDE</b></i>), 2024.</p>
-</li>
-	
-<li>Danlei Hu, Lu Chen, Hanxi Fang, Ziquan Fang, <b>Tianyi Li</b>, Yunjun Gao. <br/>
-<p>Spatio-Temporal Trajectory Similarity Measures: A Comprehensive Survey and Quantitative Study. </p>
- <p>(<b>JCR Q1, CCF A</b>) <i> IEEE Transactions on Knowledge and Data Engineering</i> (<i><b>TKDE</b></i>), 2023.</p>
-</li>	
-	
-<li>Jiaqi Wang, <b>Tianyi Li*</b>, Anni Wang, Xiaoze Liu, Lu Chen, Jie Chen, Jianye Liu, Junyang Wu, Feifei Li, Yunjun Gao. <br/>
-<p>Real-time Workload Pattern Analysis for Large-scale Cloud Databases. </p>
- <p>(<b>CORE A*, CCF A</b>)<i>  The 49th International Conference on Very Large Data Bases </i> (<i><b>PVLDB</b></i>), 2023.</p>
-</li>	
-	
-<li>Yuanyuan Yao, Dimeng Li, Hailiang Jie, Lu Chen, <b>Tianyi Li</b>, Jie Chen, Jiaqi Wang, Feifei Li, Yunjun Gao.<br/>
-<p>SimpleTS: An Efficient and Universal Model Selection Framework for Time Series Forecasting. </p>
- <p>(<b>CORE A*, CCF A</b>)<i> The 49th International Conference on Very Large Data Bases </i> (<i><b>PVLDB</b></i>), 2023 .</p>
-</li>	
-	
-<li>Xiaoze Liu, Junyang Wu, <b>Tianyi Li</b>, Lu Chen, Yunjun Gao. <br/>
-<p>Unsupervised Entity Alignment for Temporal Knowledge Graphs. </p>
-<p>(<b>CORE A*, CCF A</b>)<i> The 2023 ACM Web Conference</i> (<i><b>WWW</b></i>), 2023.</p>
-</li>	
-
-<li>Junyang Wu, <b>Tianyi Li*</b>, Lu Chen, Yunjun Gao, Ziheng Wei. <br/>
-<p>SEA: A Scalable Entity Alignment System. </p>
-<p>(<b>CORE A*, CCF A</b>)<i> The 46th International ACM SIGIR Conference on Research and Development in Information Retrieval</i> (<i><b>SIGIR</b></i>), 2023.</p>
-</li>	
-	
-<li><b>Tianyi Li</b>, Lu Chen, Christian S. Jensen, Torben Bach Pedersen, Yunjun Gao, Jilin Hu. <br/>
-<p> <b style="color:red">(Best Paper)</b> Evolutionary Clustering of Moving Objects.</p>
-<p>(<b>CORE A*, CCF A</b>)<i> The 38th IEEE International Conference on Data Engineering</i> (<i><b>ICDE</b></i>), 2022.</p>
-</li>
-
-<li>Yunjun Gao, Xiaoze Liu, Jingxuan Wu, <b>Tianyi Li</b>, Pengfei Wang, Lu Chen.<br/>
-<p>ClusterEA: Scalable Entity Alignment with Stochastic Training and Normalized Mini-batch Similarities.</p>
-<p>(<b>CORE A*, CCF A</b>)<i> The 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining</i> (<i><b>KDD</b></i>), 2022.</p>
-</li>
-
-<li>Yushuai Li, <b>Tianyi Li</b>, Huaguang Zhang, Xiangpeng Xie, Qiuye Sun.<br/>
-                <p>Distributed Resilient Double-Gradient-Descent Based Energy Management Strategy for Multi-Energy System under DoS Attacks.</p>
-                <p>(<b>JCR Q1, CCF B</b>)<i> IEEE Transactions on Network Science and Engineering</i> (<i><b>TNSE</b></i>), 2022 .</p>
- </li>
-
-                <li><b>Tianyi Li</b>, Lu Chen, Christian S. Jensen, Torben Bach Pedersen. <br/>
-                <p>TRACE: Real-time Compression of Streaming Trajectories in Road Networks.<a href="http://vldb.org/pvldb/vol14/p1175-chen.pdf"> [Paper]</a></p>
-                <p>(<b>CORE A*, CCF A</b>)<i> The 47th International Conference on Very Large Data Bases </i> (<i><b>PVLDB</b></i>), 2021. </p>
-            </li>
-
-            <li><b>Tianyi Li</b>, Ruikai Huang, Lu Chen, Christian S. Jensen, Torben Bach Pedersen.<br/>
-                <p>Compression of Uncertain Trajectories in Road Networks. <a href="http://www.vldb.org/pvldb/vol13/p1050-li.pdf"> [Paper]</a></p>
-                <p>(<b>CORE A*, CCF A</b>)<i> The 46th International Conference on Very Large Data Bases </i> (<i><b>PVLDB</b></i>), 2020.</p>
-            </li>
-
-          <!--  <li><b>Tianyi Li</b>, Yu Gu, Xiangmin Zhou, Qian Ma, Ge Yu.<br/>-->
-             <!--   <p>An Effective and Efficient Truth Discovery Framework over Data Streams. <a href="https://openproceedings.org/2017/conf/edbt/paper-41.pdf"> [Paper]</a></p>-->
-             <!--   <p><i>The 20th International Conference on Extending Database Technology</i> (<i><b>EDBT</b></i>), 2017 (<b>CORE A</b>).</p>-->
-          <!--  </li>-->
-
-          
- </ol>
-
-<p style="margin-top: 20px;"><span style="font-weight: bold;color: #0476d6">[Thesis]</span>&nbsp;&nbsp;</p>
-
-<ol class="rc">
-
-<li><b>Tianyi Li</b>. Aspects of Spatial Trajectory Data Management-Compression and Clustering, 2021. Aalborg University. <a href="https://vbn.aau.dk/ws/portalfiles/portal/466212155/PHD_TL_E_pdf.pdf"> [Thesis]</a>
-            </li>
-
-
-        </ol>
+          </div>
+        </div>
+      {% endfor %}
     </div>
 
-  <div id="award" class="contentWrap">
-        <h3>Selected Awards</h3>
-
-       
-
-        <p style="margin-top: 20px;font-weight: bold;color: #0476d6"></p>
-        <ul>
-	    <li><a href="https://icde2022.ieeecomputer.my/best-papers/">Best Paper</a>, The 36th IEEE International Conference on Data Engineering (<i><b>ICDE</b></i>), 2022</li> 
-	     <li>One of the Best Papers, The 39th National Database Conference (<i><b>NDBC</b></i>), 2022</li>   
-	     <li>Best Paper, 2022 International Conference on Cyber-energy Systems and Intelligent Energies (<i><b>ICCSIE</b></i>), 2022</li>       
-        </ul>
-
-     
-    </div>
-	<div id="student" class="contentWrap">
-        <h3>Students</h3>
-
-	<p style="margin-top: 20px;font-weight: bold;color: #0476d6">[PhD Students]</p>
-        <ul>
-            <li>Xiushang Wu (December 2023 to present), Topic: Trajectory data cleaning. </li>  <!--(Co-supervise with ; Main supervisor: Arijit Khan) -->
-        </ul>
-        <p style="margin-top: 20px;font-weight: bold;color: #0476d6">[Visiting Research Students]</p>
-        <ul>
-            <li>Yumeng Song (Ph.D. candidate from Northeastern Univeristy, October 2022 to September 2024), Topic: Trajectory Analytics. </li>
-            <li>Zhen Song (Ph.D. candidate from Northeastern Univeristy, October 2022 to September 2023), Topic: Spatio-Temporal Graph Neural Networks.</li>   
-	    <li>Zhongming Yao (Ph.D. candidate from Northeastern Univeristy, December 2023 to November 2024), Topic: Trajectory Data Management with Blockchain.</li>   
-        </ul>
-	<p style="margin-top: 20px;font-weight: bold;color: #0476d6">[Postdocs]</p>
-        <ul>
-            <li>Tiantian Liu (September 2023 to present), Topic: Optimized Maritime Communication. (Joint advisors: Kristian Torp and Christian S. Jensen) </li>
-            <li>Hengyu Liu (December 2023 to present), Topic: Maritime Data Analysis. (Joint advisors: Kristian Torp and Christian S. Jensen) </li>        
-        </ul>
-     
+    <!-- Journal PAPERS -->
+    <div class="tab-pane" id="papers-journal">
+      {% assign jl_papers = site.data.publications.papers | where: "journal", "y" %}
+      {% for paper in jl_papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b>
+          {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">PDF</a>
+            {% endif %}
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+              {% endif %}
+          </p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+        </div>
+      {% endfor %}
     </div>
 
-
-    <div id="service" class="contentWrap">
-        <h3>Academic Services</h3>
-
-          <p style="margin-top: 20px;font-weight: bold;color: #0476d6">[Leading Guest Editor]</p>
-        <ul>
-            <li>Mathematics, Special Issue "Mathematical Modeling for Parallel and Distributed Processing"</li>
-        </ul>
-	      <p style="margin-top: 20px;font-weight: bold;color: #0476d6">[PC Co-chair]</p>
-        <ul>
-            <li>The 28th International Conference on Database Systems for Advanced Applications (DASFAA 2023), Workshop “High Dimensional Vector Data Management”.</li>
-        </ul>
-
-        <p style="margin-top: 20px;font-weight: bold;color: #0476d6">[Selected Journal Reviewer]</p>
-        <ul>
-            <li>The VLDB Journal (VLDBJ)</li>
-            <li>IEEE Transactions on Knowledge and Data Engineering (TKDE)</li>
-	    <li>IEEE Transactions on Network Science and Engineering (TNSE)</li>
-	    <li>IEEE Transactions on Emerging Topics in Computational Intelligence (TETCI)</li>
-	    <li>IEEE Transactions on Circuits and Systems II (TCAS II)</li>
-	    <li>IEEE Transactions on Systems, Man and Cybernetics (TMSC)</li>
- 	    <li>Transactions in GIS </li>
-	    <li>Geoinformatics</li>
-          
-        </ul>
-
-        <p style="margin-top: 20px;font-weight: bold;color: #0476d6">[Conference Program Committee Member]</p>
-        <ul>
-		<li>The 38th AAAI Conference on Artificial Intelligence (AAAI'24)</li>
-		<li>The 2024 SIAM International Conference on Data Mining (SDM’24)</li>
-		<li>The 37th AAAI Conference on Artificial Intelligence (AAAI'23)</li>
-		<li>The 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD'23)</li>
-		<li>The 39th IEEE International Conference on Data Engineering (ICDE'23)</li>
-	        <li>The 32nd ACM International Conference on Information and Knowledge Management (CIKM'23)</li>
-		<li>The 31st ACM International Conference on Information and Knowledge Management (CIKM'22)</li>	
-        </ul>
+    <!-- 2024 PAPERS -->
+    <div class="tab-pane" id="papers-2024">
+      {% assign l2024_papers = site.data.publications.papers | where: "year2024", "y" %}
+      {% for paper in l2024_papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b>
+          {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">PDF</a>
+            {% endif %}
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+              {% endif %}
+          </p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+        </div>
+      {% endfor %}
     </div>
 
-    <!--
-    <div id="code" class="contentWrap">
-        <h3>Codes</h3>
-        <a href="./code.html"  >[Full List]</a>
-        <ul>
-            <li>
-                Complex Multimedia Content Analysis, Recommendation and Demonstration in Big Data (Key program of NSFC, 2015-2019).
-                <a href="">[download]</a>
-            </li>
-
-        </ul>
-
-    </div>
--->
-
-    <hr/>
-
-    <div id="teaching" class="contentWrap">
-        <h3>Teaching</h3>
-        <ul>
-	<li>Lecturer, Algorithm and Data Structures, Fall 2023</li>
-	<li>Master Group Project Supervisor, DAT8, Spring 2023</li>		
-	<li>Bachelor Group Project Supervisor, SW6, Spring 2023</li>	
-<li>Lecturer, Algorithm and Data Structures, Fall 2022</li>
-<li>Bachelor Group Project Supervisor, SW1, Fall 2021, Fall 2022</li>
-            <li>Teaching Assistant, Mobile Software and Technology, Spring 2019, Spring 2020</li>
-            <li>Bachelor Group Project Supervisor, BAIT4, Spring 2019</li>
-            <li>Bachelor Group Project Supervisor, SW3, Fall 2018</li>
-            <li>Teaching Assistant, Algorithm and Data Structures, Fall 2018</li>
-        </ul>
+    <!-- 2023 PAPERS -->
+    <div class="tab-pane" id="papers-2023">
+      {% assign l2023_papers = site.data.publications.papers | where: "year2023", "y" %}
+      {% for paper in l2023_papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b>
+          {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">PDF</a>
+            {% endif %}
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+              {% endif %}
+          </p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+        </div>
+      {% endfor %}
     </div>
 
+    <!-- before 2023 PAPERS -->
+    <div class="tab-pane" id="papers-before2023">
+      {% assign before2023_papers = site.data.publications.papers | where: "before2023", "y" %}
+      {% for paper in before2023_papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b>
+          {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">PDF</a>
+            {% endif %}
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+              {% endif %}
+          </p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+        </div>
+      {% endfor %}
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var papers = document.querySelectorAll('.paper');
+        papers.forEach(function(paper) {
+          var authorP = paper.querySelector('p:nth-of-type(2)'); // 假设作者总是在第二个p元素中
+          if (authorP) {
+            var authors = authorP.textContent;
+            var updatedAuthors = authors.replace(/(\w+\s\w+\*)/g, "<strong>$1</strong>").replace(/\*/g, '');
+            authorP.innerHTML = updatedAuthors; // 更新作者列表
+          }
+        });
+      });
+    </script>
+  </div>
+</div>
 
-    <hr/>
-    <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=n&d=hoJ69QVZJSKo0CN84x0cWXi_Gc9b1KJ9KDy669yRFPU"></script>
-    <p>Last Updated: Aug 2rd, 2022</p>
+<div class="docs-section" id="award">
+  <h4>Selected Awards</h4>
+  {% assign current_awards = site.data.awards.awards %}
+  {% for award in current_awards %}
+  <div class="class">
+    <p style="line-height: 0.7"> {{ award.name }}, {{ award.conference }}, {{ award.time }}</p>
+  </div>
+  {% endfor %}
+</div>
 
-</body>
+<div class="docs-section" id="people">
+  <h4>Students</h4>
 
-</html> 
+      {% assign current_people = site.data.students.students %}
+      {% for person in current_people %}
+        <div class="paper">
+          <p style="line-height: 0.5">
+            {% if person.link %}
+            <a href="{{ person.link | prepend: site.baseurl }}" target="_blank"><b>{{ person.name }}</b></a>
+            {% else %}
+            <b>{{ person.name }}</b>
+            {% endif %}
+          </p>
+          <p style="line-height: 0.5"></p>
+          {{ person.time }}
+          </p> 
+          <p style="line-height: 0.5"></p>
+          {{ person.type }}
+          </p> 
+          <p style="line-height: 0.5"></p>
+          Topic: {{ person.topic }}
+          </p> 
+        </div>
+      {% endfor %}
+</div>
+
+<!-- ========== Services ========== -->
+<div class="docs-section" id="services">
+  <h4>Services</h4>
+
+  <ul class="tab-nav">
+    <li><div class="button active" data-ref="#services-conferences">Conferences</div></li>
+    <li><div class="button" data-ref="#services-journal">Journals</div></li>
+  </ul>
+
+  <div class="tab-content">
+
+    <!-- Conferences -->
+    <div class="tab-pane active" id="services-conferences">
+      {% assign conferences = site.data.services.services | where: "conference", "y" %}
+      {% for paper in conferences %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p><i>{{ paper.role }}</i></p>
+        </div>
+      {% endfor %}
+    </div>
+
+    <!-- Journal -->
+    <div class="tab-pane" id="services-journal">
+      {% assign journals = site.data.services.services | where: "journal", "y" %}
+      {% for paper in journals %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p><i>{{ paper.role }}</i></p>
+        </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</div>
+
+<div class="docs-section" id="teaching">
+  <h4>Teaching</h4>
+  {% assign current_classes = site.data.classes.classes %}
+  {% for class in current_classes %}
+  <div class="class">
+    <p class="title"> {{ class.role }}, {{ class.name }}, {{ class.time }}</a></p>
+  </div>
+  {% endfor %}
+</div>
+
+<!-- ========== RESUME ========== -->
+<div class="docs-section" id="resume">
+  <h4>Vitæ</h4>
+
+  <!-- The Timeline -->
+  <ul class="timeline">
+    {% for exp in site.data.experience.experiences %}
+    <li>
+      {% if exp.category == "work" %}
+      <div class="direction-l"> 
+      {% else %}
+      <div class="direction-r">
+      {% endif %}
+        <div class="flag-wrapper">
+          <span class="flag">{{ exp.place }}</span>
+          <span class="time-wrapper"><span class="time">{{ exp.time }}</span></span>
+        </div>
+        <div class="desc"><b>{{ exp.title }}</b> <br/> {{ exp.subtitle }}</div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+
+<div class="docs-section" id="ack">
+  <h4>Acknowledgement</h4>
+  <p>
+    This website uses the website design and template by <a href="https://hengyuliu.com/">Hengyu Liu</a>, <a href="https://faculty.washington.edu/msaveski/">Martin Saveski</a>, <a href="https://www.zitaoliu.com/index.html#news">Zitao Liu</a> and <a href="http://thashim.github.io">Tatsunori Hashimoto</a>
+  </p>
+
+</div>

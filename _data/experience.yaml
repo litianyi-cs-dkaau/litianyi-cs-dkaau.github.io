@@ -1,0 +1,36 @@
+experiences:
+- place: "Aalborg University"
+  time: "Dec. 2023 - now"
+  title: "Postdoctoral Researcher"
+  subtitle: ""
+  category: "work"
+  
+- place: "Macquarie University"
+  time: "July. 2023 - Sept. 2023"
+  title: "Visting Scholar"
+  subtitle: "Advised by Prof. Longbing Cao"
+  category: "school"
+
+- place: "University of Technology Sydney"
+  time: "July. 2022 - June. 2023"
+  title: "Visting Scholar"
+  subtitle: "Advised by Prof. Longbing Cao"
+  category: "school"
+
+- place: "Microsoft Research"
+  time: "June. 2021 - June. 2022"
+  title: "Research Intern"
+  subtitle: "Data, Knowledge, and Intelligence Group"
+  category: "work"
+
+- place: "Northeastern University"
+  time: "Sept. 2017 - Dec. 2023"
+  title: "Ph.D."
+  subtitle: "Advised by Prof. Ge Yu + Tiancheng Zhang"
+  category: "school"
+
+- place: "Northeastern University"
+  time: "Sept. 2013 - June. 2017"
+  title: "Undergraduate"
+  subtitle: Computer Science and Technology.
+  category: "school"

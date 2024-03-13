@@ -1,0 +1,12 @@
+awards:
+  - name: "Best Paper"
+    conference: The 36th IEEE International Conference on Data Engineering (ICDE)
+    time: 2022
+
+  - name: One of the Best Papers
+    conference: The 39th National Database Conference (NDBC)
+    time: 2022 
+
+  - name: Best Paper
+    conference: International Conference on Cyber-energy Systems and Intelligent Energies (ICCSIE)
+    time: 2022
