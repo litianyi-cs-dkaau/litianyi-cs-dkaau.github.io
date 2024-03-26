@@ -3,10 +3,38 @@ students:
       time: "December 2023 to present"
       type: "PhD Student"
       topic: "Trajectory data cleaning"
+      phd: y
+
+    - name: "Yumeng Song"
+      time: "October 2022 to September 2024"
+      type: "Ph.D. candidate from Northeastern Univeristy"
+      topic: "Trajectory Analytics"
+      visiting: y
+    
+    - name: "Zhen Song"
+      time: "October 2022 to September 2023"
+      type: "Ph.D. candidate from Northeastern Univeristy"
+      topic: "Spatio-Temporal Graph Neural Networks"
+      visiting: y
+    
+    - name: "Zhongming Yao"
+      time: "December 2023 to November 2024"
+      type: "Ph.D. candidate from Northeastern Univeristy"
+      topic: "Trajectory Data Management with Blockchain"
+      visiting: y
+
+    - name: "Tiantian Liu"
+      time: "September 2023 to present"
+      type: "Postdoc Researcher (Joint advisors: Kristian Torp and Christian S. Jensen)"
+      topic: "Optimized Maritime Communication"
+      postdoc: y
 
     - name: "Hengyu Liu"
       time: "December 2023 to present"
       type: "Postdoc Researcher (Joint advisors: Kristian Torp and Christian S. Jensen)"
-      topic: " Maritime Data Analysis"
+      topic: "Maritime Data Analysis"
       link: https://hengyuliu.com/
+      postdoc: y
+
+
     

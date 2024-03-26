@@ -1,6 +1,8 @@
 projects:
-  # - title: "Distributionally Robust Models"
-  #   subtitle: "Training methods to make models perform even in the worst-case on a population."
-  #   thumbnail: "assets/projects/2018-dro.png"
-  #   url: "projects/2018-dro.html"
-  #   selected: y
+  - title: "Horizon European Framework Program (HORIZON)"
+    subtitle: "MobiSpaces: New Data Spaces for Green Mobility"
+    role: "Co-investigator"
+
+  - title: "Digital Research Centre Denmark Project (DIRECT)"
+    subtitle: "Multimodal Data Processing of Earth Observation Data"
+    role: "Co-investigator"

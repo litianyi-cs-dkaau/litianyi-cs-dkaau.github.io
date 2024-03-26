@@ -3,9 +3,122 @@ papers:
     authors: "Zhen Song, Yu Gu, Tianyi Li*, Sun Qing, Yanfeng Zhang, Christian S. Jensen, Ge Yu."
     venue: "The 2024 ACM SIGMOD/PODS International Conference on Management of Data (SIGMOD), 2024."
     paper_pdf: "https://dl.acm.org/doi/pdf/10.1145/3626716?casa_token=RRCOkHs4UVsAAAAA:RA8w3aIT8PgjHjdJ5Nc9Wry9ua_1HADy4q6Vocc1BEB-s5N1APM_e6xmCLo23M74yaLifWen7EdC"
-    selected: y
     conference: y
     year2024: y
+
+  - title: "SWISP: Distributed Convoy Mining via Sliding Window-based Indexing and Sub-track Partitioning."
+    authors: "Chenxu Wang, Xin Yang, Tianyi Li* Jiaxing Wei, Pinghui Wang,  Hongzhen Xian, Christian S. Jensen."
+    venue: "(CORE A*, CCF A) The 40th IEEE International Conference on Data Engineering (ICDE), 2024."
+    paper_pdf: ""
+    conference: y
+    year2024: y
+
+  - title: "TSec: An Efficient and Effective Framework for Time Series Classification."
+    authors: "Yuanyuan Yao, Hailiang Jie, Lu Chen, Tianyi Li* Yunjun Gao, Shiting Wen. "
+    venue: "(CORE A*, CCF A) The 40th IEEE International Conference on Data Engineering (ICDE), 2024."
+    paper_pdf: ""
+    conference: y
+    year2024: y
+
+
+  - title: "LTPG: Large-Batch Transaction Processing on GPUs with Deterministic Concurrency Control."
+    authors: "Jianpeng Wei, Yu Gu, Tianyi Li*, Jianzhong Qi, Chuanwen Li, Yanfeng Zhang, Christian S. Jensen, Ge Yu."
+    venue: "(CORE A*, CCF A) The 40th IEEE International Conference on Data Engineering (ICDE), 2024."
+    paper_pdf: ""
+    conference: y
+    year2024: y
+
+  - title: "CHGNN: A Semi-Supervised Contrastive Hypergraph Learning Network"
+    authors: "Yumeng Song, Yu Gu, Tianyi Li*, Jianzhong Qi, Zhenghao Liu, Christian S. Jensen, Ge Yu."
+    venue: "(JCR Q1, CCF A) IEEE Transactions on Knowledge and Data Engineering (TKDE), 2024."
+    paper_pdf: ""
+    journal: y
+    year2024: y
+
+  - title: "FedAPT: Joint Adaptive Parameter Freezing and Resource Allocation for Communication-Efficient Federated Vehicular Networks"
+    authors: "Jia Wu, Tingyi Dai, Peiyuan Guan, Su Liu, Fangfang Gou, Amir Taherkordi, Yushuai Li, Tianyi Li*."
+    venue: "(JCR Q1, CCF C) IEEE Internet of Things Journal (IoTJ), 2024."
+    paper_pdf: ""
+    journal: y
+    year2024: y
+
+  - title: "FedAGL: A Communication-Efficient Federated Vehicular Network."
+    authors: "Liu Su, Yushuai Li, Peiyuan Guan, Tianyi Li*, Amir Taherkordi, Christian S. Jensen. "
+    venue: "(JCR Q1, CCF A)IEEE Transactions on Intelligent Vehicles (TIV), 2024."
+    paper_pdf: ""
+    journal: y
+    year2024: y
+
+  - title: "Real-time Workload Pattern Analysis for Large-scale Cloud Databases."
+    authors: "Jiaqi Wang, Tianyi Li*, Anni Wang, Xiaoze Liu, Lu Chen, Jie Chen, Jianye Liu, Junyang Wu, Feifei Li, Yunjun Gao."
+    venue: "(CORE A*, CCF A) The 49th International Conference on Very Large Data Bases (PVLDB), 2023."
+    paper_pdf: " "
+    conference: y
+    year2023: y
+
+  - title: "SimpleTS: An Efficient and Universal Model Selection Framework for Time Series Forecasting."
+    authors: "Yuanyuan Yao, Dimeng Li, Hailiang Jie, Lu Chen, Tianyi Li*, Jie Chen, Jiaqi Wang, Feifei Li, Yunjun Gao."
+    venue: "(CORE A*, CCF A) The 49th International Conference on Very Large Data Bases (PVLDB), 2023."
+    paper_pdf: " "
+    conference: y
+    year2023: y
+
+  - title: "Unsupervised Entity Alignment for Temporal Knowledge Graphs."
+    authors: "Xiaoze Liu, Junyang Wu, Tianyi Li*, Lu Chen, Yunjun Gao."
+    venue: "(CORE A*, CCF A) The 2023 ACM Web Conference (WWW), 2023."
+    paper_pdf: " "
+    conference: y
+    year2023: y
+
+  - title: "SEA: A Scalable Entity Alignment System."
+    authors: "Junyang Wu, Tianyi Li*, Lu Chen, Yunjun Gao, Ziheng Wei."
+    venue: "(CORE A*, CCF A) The 46th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), 2023."
+    paper_pdf: " "
+    conference: y
+    year2023: y
+
+  - title: "Evolutionary Clustering of Moving Objects."
+    authors: "Tianyi Li*, Lu Chen, Christian S. Jensen, Torben Bach Pedersen, Yunjun Gao, Jilin Hu."
+    venue: "(CORE A*, CCF A) The 38th IEEE International Conference on Data Engineering (ICDE), 2022."
+    paper_pdf: " "
+    conference: y
+    year2022: y
+
+  - title: "ClusterEA: Scalable Entity Alignment with Stochastic Training and Normalized Mini-batch Similarities."
+    authors: "Yunjun Gao, Xiaoze Liu, Jingxuan Wu, Tianyi Li*, Pengfei Wang, Lu Chen."
+    venue: "(CORE A*, CCF A) The 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2022."
+    paper_pdf: " "
+    conference: y
+    year2022: y
+
+  - title: "Distributed Resilient Double-Gradient-Descent Based Energy Management Strategy for Multi-Energy System under DoS Attacks."
+    authors: "Yushuai Li, Tianyi Li*, Huaguang Zhang, Xiangpeng Xie, Qiuye Sun. "
+    venue: "(JCR Q1, CCF B)IEEE Transactions on Network Science and Engineering (TNSE), 2022 ."
+    paper_pdf: ""
+    journal: y
+    year2022: y
+
+  - title: "TRACE: Real-time Compression of Streaming Trajectories in Road Networks."
+    authors: "Tianyi Li*, Lu Chen, Christian S. Jensen, Torben Bach Pedersen."
+    venue: "(CORE A*, CCF A)The 47th International Conference on Very Large Data Bases (PVLDB), 2021."
+    paper_pdf: ""
+    conference: y
+    beforeyear2022: y
+
+  - title: "Compression of Uncertain Trajectories in Road Networks."
+    authors: "Tianyi Li*, Ruikai Huang, Lu Chen, Christian S. Jensen, Torben Bach Pedersen."
+    venue: "(CORE A*, CCF A) The 46th International Conference on Very Large Data Bases (PVLDB), 2020."
+    paper_pdf: ""
+    conference: y
+    beforeyear2022: y
+
+
+  - title: "An Effective and Efficient Truth Discovery Framework over Data Streams."
+    authors: "Tianyi Li*, Ruikai Huang, Lu Chen, Christian S. Jensen, Torben Bach Pedersen."
+    venue: "(CORE A, CCF B) International Conference on Extending Database Technology (EDBT), 2017."
+    paper_pdf: ""
+    conference: y
+    beforeyear2022: y
 
 
 
@@ -13,3 +126,4 @@ papers:
   
 
     
+
