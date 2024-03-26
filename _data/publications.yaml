@@ -48,6 +48,7 @@ papers:
     paper_pdf: ""
     journal: y
     year2024: y
+     
 
   - title: "Real-time Workload Pattern Analysis for Large-scale Cloud Databases."
     authors: "Jiaqi Wang, Tianyi Li+*, Anni Wang, Xiaoze Liu, Lu Chen, Jie Chen, Jianye Liu, Junyang Wu, Feifei Li, Yunjun Gao."
@@ -76,6 +77,13 @@ papers:
     paper_pdf: " "
     conference: y
     year2023: y
+    
+  - title: " Spatio-temporal trajectory similarity measures: A comprehensive survey and quantitative study."
+    authors: "Danlei Hu, Lu Chen, Hanxi Fang, Ziquan Fang, Tianyi Li+, Yunjun Gao"
+    venue: "(JCR Q1, CCF A) IEEE Transactions on Knowledge and Data Engineering (TKDE), 2024."
+    paper_pdf: " "
+    journal: y
+    beforeyear2022: y 
 
   - title: "Evolutionary Clustering of Moving Objects."
     authors: "Tianyi Li+, Lu Chen, Christian S. Jensen, Torben Bach Pedersen, Yunjun Gao, Jilin Hu."
@@ -119,6 +127,9 @@ papers:
     paper_pdf: ""
     conference: y
     beforeyear2022: y
+
+
+   
 
 
 
