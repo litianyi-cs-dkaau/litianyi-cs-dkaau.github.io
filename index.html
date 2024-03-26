@@ -11,11 +11,11 @@ I recieved the Ph.D. degree from Aalborg University, Denmark, in 2022, under the
 I won several awards including <a href="https://icde2022.ieeecomputer.my/best-papers/">ICDE 2022 Best Paper</a>, NDBC 2022 One of the Best Papers, and ICCSIE 2022 Best Paper.
 I have served on the Program Committees of top conferences including ICDE, KDD, AAAI, etc, and as a reviewer of prestigious journals including VLDBJ, TKDE, TNSE, etc.  </p> -->
   <p style="line-height:1.4">
-  I am a tenure-track assistant professor with Department of Computer Science, Aalborg University, Denmark. I am a member of Data Engineering, Science and Systems (DESS) group. I recieved the Ph.D. degree from Aalborg University, Denmark, in 2022, under the supervision of Prof. Christian S. Jensen, Prof. Lu Chen, and Prof. Torben Bach Pedersen. I won several awards including ICDE 2022 Best Paper, NDBC 2022 One of the Best Papers, and ICCSIE 2022 Best Paper. I am the project co-investigator of Horizon European Framework Program (HORIZON) and Digital Research Centre Denmark Project (DIRECT).</p>
+  I am a tenure-track assistant professor with Department of Computer Science, Aalborg University, Denmark. I am a member of Data Engineering, Science and Systems (DESS) group. I recieved the Ph.D. degree from Aalborg University, Denmark, in 2022, under the supervision of <a href="https://csj.cs.aau.dk" target="_blank">Prof. Christian S. Jensen</a>, <a href="https://person.zju.edu.cn/en/luchen" target="_blank">Prof. Lu Chen</a>, and <a href="https://homes.cs.aau.dk/~tbp/" target="_blank">Prof. Torben Bach Pedersen</a>. I won several awards including <a href="https://icde2022.ieeecomputer.my/best-papers/" target="_blank">ICDE 2022 Best Paper</a>, NDBC 2022 One of the Best Papers, and ICCSIE 2022 Best Paper. I am the project co-investigator of Horizon European Framework Program (HORIZON) and Digital Research Centre Denmark Project (DIRECT).</p>
 
   <h4>Research Interests</h4>
-  <p>My primary research areas are Big Data Management and Database. Specifically, my current research interests are as follows: </p>
-  <ul>
+  <p style="line-height: 50%;">My current research interests are as follows: </p>
+  <ul style="line-height: 80%;">
       <li>Data Management and Analytics</li>
       <li>Intelligent Transportation </li>
       <li>Database Technology</li>
@@ -26,9 +26,7 @@ I have served on the Program Committees of top conferences including ICDE, KDD, 
 </div>
 <div class="docs-section" id="publications">
   <h4>Publications</h4>
-
-  <p>Most recent publications on <a href="https://scholar.google.com/citations?user=NeeHV-IAAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a> or <a href="https://dblp.org/pid/85/11154-5.html" target="_blank">DBLP</a>.</p>
-
+  <p>Full publications on <a href="https://scholar.google.com/citations?user=NeeHV-IAAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a> and <a href="https://dblp.org/pid/85/11154-5.html" target="_blank">DBLP</a>, and * denotes the corresponding author</p>
   <ul class="tab-nav">
     <li><div class="button active" data-ref="#papers-2024">2024</div></li>
     <li><div class="button" data-ref="#papers-2023">2023</div></li>
@@ -248,7 +246,7 @@ I have served on the Program Committees of top conferences including ICDE, KDD, 
           var authorP = paper.querySelector('p:nth-of-type(2)'); // 假设作者总是在第二个p元素中
           if (authorP) {
             var authors = authorP.textContent;
-            var updatedAuthors = authors.replace(/(\w+\s\w+\*)/g, "<strong>$1</strong>").replace(/\*/g, '');
+            var updatedAuthors = authors.replace(/(\w+\s\w+)\+/g, "<strong>$1</strong>").replace(/\+/g, '');
             authorP.innerHTML = updatedAuthors; // 更新作者列表
           }
         });

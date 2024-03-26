@@ -1,4 +1,8 @@
 services:
+  - title: "2024 IEEE International Conference on Communications, Control, and Computing Technologies for Smart Grids (SmartGridComm),  Workshop on Optimal and Green Operation of Multi-energy Smart Grids"
+    role: PC Co-chair
+    conference: y
+
   - title: "The 38th AAAI Conference on Artificial Intelligence (AAAI 2024)"
     role: PC Member
     conference: y
@@ -46,10 +50,6 @@ services:
   - title: "The institution of Engineering and Technology (IET), Special Issue \"Distributed Optimization and Machine Learning for Resilient Energy Systems\""
     role: Guest Editor
     journal: y
-
-  - title: "2024 IEEE International Conference on Communications, Control, and Computing Technologies for Smart Grids (SmartGridComm),  Workshop on Optimal and Green Operation of Multi-energy Smart Grids"
-    role: PC Co-chair
-    conference: y
 
 
  
