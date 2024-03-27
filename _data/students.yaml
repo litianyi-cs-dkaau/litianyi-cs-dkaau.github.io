@@ -1,7 +1,7 @@
 students:
     - name: "Xiushang Wu"
       time: "January 2024 to present"
-      type: "PhD Student (Joint advisors: Kristian Torp and Christian S. Jensen)"
+      type: "PhD Student (Joint supervisors: Kristian Torp and Christian S. Jensen)"
       topic: "Trajectory data cleaning"
       phd: y
 
@@ -34,6 +34,12 @@ students:
       type: "Postdoc Researcher (Joint advisors: Kristian Torp and Christian S. Jensen)"
       topic: "Maritime Data Analysis"
       link: https://hengyuliu.com/
+      postdoc: y
+      
+    - name: "Haomin Yu"
+      time: "March 2024 to present"
+      type: "Postdoc Researcher (Joint advisors: Kristian Torp and Christian S. Jensen)"
+      topic: "Maritime Data Prediction"
       postdoc: y
 
 
