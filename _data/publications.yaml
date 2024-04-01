@@ -1,4 +1,5 @@
 papers:
+  
   - title: "ADGNN: Towards Scalable GNN Training with Aggregation-Difference Aware Sampling."
     authors: "Zhen Song, Yu Gu, Tianyi Li+*, Qing Sun, Yanfeng Zhang, Christian S. Jensen, Ge Yu."
     venue: "The 2024 ACM SIGMOD/PODS International Conference on Management of Data (SIGMOD), 2024."
@@ -45,6 +46,13 @@ papers:
   - title: "FedAGL: A Communication-Efficient Federated Vehicular Network."
     authors: "Liu Su, Yushuai Li, Peiyuan Guan, Tianyi Li+, Amir Taherkordi, Christian S. Jensen. "
     venue: "(JCR Q1) IEEE Transactions on Intelligent Vehicles (TIV), 2024."
+    paper_pdf: ""
+    journal: y
+    year2024: y
+
+  - title: "Digital Twin Empowered PV Power Prediction."
+    authors: "Xiaoyu Zhang, Yushuai Li, Tianyi Li+, Yonghao Gui, Qiuye Sun, David Wenzhong Gao. "
+    venue: "(JCR Q1) Journal of Modern Power Systems and Clean Energy, 2024."
     paper_pdf: ""
     journal: y
     year2024: y
@@ -127,6 +135,9 @@ papers:
     paper_pdf: ""
     conference: y
     beforeyear2022: y
+    
+
+ 
 
 
    
