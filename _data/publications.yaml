@@ -3,9 +3,10 @@ papers:
   - title: "ADGNN: Towards Scalable GNN Training with Aggregation-Difference Aware Sampling."
     authors: "Zhen Song, Yu Gu, Tianyi Li+*, Qing Sun, Yanfeng Zhang, Christian S. Jensen, Ge Yu."
     venue: "(CORE A*, CCF A) The 2024 ACM SIGMOD/PODS International Conference on Management of Data (SIGMOD), 2024."
-    paper_pdf: "https://dl.acm.org/doi/pdf/10.1145/3626716?casa_token=RRCOkHs4UVsAAAAA:RA8w3aIT8PgjHjdJ5Nc9Wry9ua_1HADy4q6Vocc1BEB-s5N1APM_e6xmCLo23M74yaLifWen7EdC"
+    paper_pdf: ""
     conference: y
     year2024: y
+
 
   - title: "SWISP: Distributed Convoy Mining via Sliding Window-based Indexing and Sub-track Partitioning."
     authors: "Chenxu Wang, Xin Yang, Tianyi Li+, Jiaxing Wei, Pinghui Wang,  Hongzhen Xiang, Christian S. Jensen."
@@ -25,6 +26,13 @@ papers:
   - title: "LTPG: Large-Batch Transaction Processing on GPUs with Deterministic Concurrency Control."
     authors: "Jianpeng Wei, Yu Gu, Tianyi Li+, Jianzhong Qi, Chuanwen Li, Yanfeng Zhang, Christian S. Jensen, Ge Yu."
     venue: "(CORE A*, CCF A) The 40th IEEE International Conference on Data Engineering (ICDE), 2024."
+    paper_pdf: ""
+    conference: y
+    year2024: y
+    
+  - title: "A Demonstration of TENDS: Time Series Management System based on Model Selection"
+    authors: "Yuanyuan Yao, Shenjia Dai, Yilin Li, Lu Chen, Dimeng Li, Yunjun Gao, Tianyi Li."
+    venue: "(CORE A*, CCF A) The 50th International Conference on Very Large Databases (PVLDB), 2024."
     paper_pdf: ""
     conference: y
     year2024: y
@@ -60,14 +68,14 @@ papers:
 
   - title: "Real-time Workload Pattern Analysis for Large-scale Cloud Databases."
     authors: "Jiaqi Wang, Tianyi Li+*, Anni Wang, Xiaoze Liu, Lu Chen, Jie Chen, Jianye Liu, Junyang Wu, Feifei Li, Yunjun Gao."
-    venue: "(CORE A*, CCF A) The 49th International Conference on Very Large Data Bases (PVLDB), 2023."
+    venue: "(CORE A*, CCF A) The 49th International Conference on Very Large Databases (PVLDB), 2023."
     paper_pdf: " "
     conference: y
     year2023: y
 
   - title: "SimpleTS: An Efficient and Universal Model Selection Framework for Time Series Forecasting."
     authors: "Yuanyuan Yao, Dimeng Li, Hailiang Jie, Lu Chen, Tianyi Li+, Jie Chen, Jiaqi Wang, Feifei Li, Yunjun Gao."
-    venue: "(CORE A*, CCF A) The 49th International Conference on Very Large Data Bases (PVLDB), 2023."
+    venue: "(CORE A*, CCF A) The 49th International Conference on Very Large Databases (PVLDB), 2023."
     paper_pdf: " "
     conference: y
     year2023: y
@@ -116,14 +124,14 @@ papers:
 
   - title: "TRACE: Real-time Compression of Streaming Trajectories in Road Networks."
     authors: "Tianyi Li+, Lu Chen, Christian S. Jensen, Torben Bach Pedersen."
-    venue: "(CORE A*, CCF A)The 47th International Conference on Very Large Data Bases (PVLDB), 2021."
+    venue: "(CORE A*, CCF A)The 47th International Conference on Very Large Databases (PVLDB), 2021."
     paper_pdf: ""
     conference: y
     beforeyear2022: y
 
   - title: "Compression of Uncertain Trajectories in Road Networks."
     authors: "Tianyi Li+, Ruikai Huang, Lu Chen, Christian S. Jensen, Torben Bach Pedersen."
-    venue: "(CORE A*, CCF A) The 46th International Conference on Very Large Data Bases (PVLDB), 2020."
+    venue: "(CORE A*, CCF A) The 46th International Conference on Very Large Databases (PVLDB), 2020."
     paper_pdf: ""
     conference: y
     beforeyear2022: y
