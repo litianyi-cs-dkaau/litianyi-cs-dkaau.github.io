@@ -30,21 +30,21 @@ papers:
     conference: y
     year2024: y
     
-  - title: "A Demonstration of TENDS: Time Series Management System based on Model Selection"
+  - title: "A Demonstration of TENDS: Time Series Management System based on Model Selection."
     authors: "Yuanyuan Yao, Shenjia Dai, Yilin Li, Lu Chen, Dimeng Li, Yunjun Gao, Tianyi Li."
     venue: "(CORE A*, CCF A) The 50th International Conference on Very Large Databases (PVLDB), 2024."
     paper_pdf: ""
     conference: y
     year2024: y
 
-  - title: "CHGNN: A Semi-Supervised Contrastive Hypergraph Learning Network"
+  - title: "CHGNN: A Semi-Supervised Contrastive Hypergraph Learning Network."
     authors: "Yumeng Song, Yu Gu, Tianyi Li+, Jianzhong Qi, Zhenghao Liu, Christian S. Jensen, Ge Yu."
     venue: "(JCR Q1, CCF A) IEEE Transactions on Knowledge and Data Engineering (TKDE), 2024."
     paper_pdf: ""
     journal: y
     year2024: y
 
-  - title: "FedAPT: Joint Adaptive Parameter Freezing and Resource Allocation for Communication-Efficient Federated Vehicular Networks"
+  - title: "FedAPT: Joint Adaptive Parameter Freezing and Resource Allocation for Communication-Efficient Federated Vehicular Networks."
     authors: "Jia Wu, Tingyi Dai, Peiyuan Guan, Su Liu, Fangfang Gou, Amir Taherkordi, Yushuai Li, Tianyi Li+."
     venue: "(JCR Q1, CCF C) IEEE Internet of Things Journal (IoTJ), 2024."
     paper_pdf: ""
