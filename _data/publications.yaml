@@ -31,7 +31,7 @@ papers:
     year2024: y
     
   - title: "A Demonstration of TENDS: Time Series Management System based on Model Selection."
-    authors: "Yuanyuan Yao, Shenjia Dai, Yilin Li, Lu Chen, Dimeng Li, Yunjun Gao, Tianyi Li."
+    authors: "Yuanyuan Yao, Shenjia Dai, Yilin Li, Lu Chen, Dimeng Li, Yunjun Gao, Tianyi Li+."
     venue: "(CORE A*, CCF A) The 50th International Conference on Very Large Databases (PVLDB), 2024."
     paper_pdf: ""
     conference: y
