@@ -58,13 +58,19 @@ papers:
     journal: y
     year2024: y
 
+  - title: "Digital Twin Empowered Autonomous Driving for E-mobility."
+    authors: "Yushuai Li, Jiachen Xu, Tianyi Li, Elena Mocanu, Christian S. Jensen, David Wenzhong Gao, Yan Zhang. "
+    venue: "(JCR Q1) IEEE Electrification Magazine, 2024."
+    paper_pdf: ""
+    journal: y
+    year2024: y
+
   - title: "Digital Twin Empowered PV Power Prediction."
     authors: "Xiaoyu Zhang, Yushuai Li, Tianyi Li+, Yonghao Gui, Qiuye Sun, David Wenzhong Gao. "
     venue: "(JCR Q1) Journal of Modern Power Systems and Clean Energy (MPCE), 2024."
     paper_pdf: ""
     journal: y
-    year2024: y
-     
+    year2024: y   
 
   - title: "Real-time Workload Pattern Analysis for Large-scale Cloud Databases."
     authors: "Jiaqi Wang, Tianyi Li+*, Anni Wang, Xiaoze Liu, Lu Chen, Jie Chen, Jianye Liu, Junyang Wu, Feifei Li, Yunjun Gao."
