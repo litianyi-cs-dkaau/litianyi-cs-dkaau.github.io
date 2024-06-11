@@ -1,4 +1,8 @@
 services:
+  - title: "The 38th AAAI Conference on Artificial Intelligence (AAAI 2025)"
+    role: PC Member
+    conference: y
+    
   - title: "21th EAI International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services (MobiQuitous 2024)"
     role: Workshop Co-chair
     conference: y
