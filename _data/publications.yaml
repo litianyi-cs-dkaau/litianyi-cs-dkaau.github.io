@@ -59,7 +59,7 @@ papers:
     year2024: y
 
   - title: "Digital Twin Empowered Autonomous Driving for E-mobility."
-    authors: "Yushuai Li, Jiachen Xu, Tianyi Li, Elena Mocanu, Christian S. Jensen, David Wenzhong Gao, Yan Zhang. "
+    authors: "Yushuai Li, Jiachen Xu, Tianyi Li+, Elena Mocanu, Christian S. Jensen, David Wenzhong Gao, Yan Zhang. "
     venue: "(JCR Q1) IEEE Electrification Magazine, 2024."
     paper_pdf: ""
     journal: y
