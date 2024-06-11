@@ -1,4 +1,8 @@
 services:
+  - title: "21th EAI International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services (MobiQuitous 2024)"
+    role: Workshop Co-chair
+    conference: y
+
   - title: "2024 IEEE International Conference on Communications, Control, and Computing Technologies for Smart Grids (SmartGridComm),  Workshop on Optimal and Green Operation of Multi-energy Smart Grids"
     role: PC Co-chair
     conference: y
