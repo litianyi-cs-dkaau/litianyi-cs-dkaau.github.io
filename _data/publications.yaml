@@ -30,6 +30,13 @@ papers:
     conference: y
     year2024: y
     
+  - title: "DynaHB: A Communication-Avoiding Asynchronous Distributed Framework with Hybrid Batches for Dynamic GNN Training."
+    authors: "Zhen Song, Yu Gu, Qing Sun, Tianyi Li+, Yanfeng Zhang, Yushuai Li, Christian S. Jensen, Ge Yu."
+    venue: "(CORE A*, CCF A) The 50th International Conference on Very Large Databases (PVLDB), 2024."
+    paper_pdf: ""
+    conference: y
+    year2024: y
+    
   - title: "A Demonstration of TENDS: Time Series Management System based on Model Selection."
     authors: "Yuanyuan Yao, Shenjia Dai, Yilin Li, Lu Chen, Dimeng Li, Yunjun Gao, Tianyi Li+."
     venue: "(CORE A*, CCF A) The 50th International Conference on Very Large Databases (PVLDB), 2024."
