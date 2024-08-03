@@ -5,7 +5,7 @@ papers:
     venue: "(CORE A*, CCF A) The 2025 ACM SIGMOD/PODS International Conference on Management of Data (SIGMOD), 2025."
     paper_pdf: ""
     conference: y
-    year2024: y
+    year2025: y
   
   - title: "ADGNN: Towards Scalable GNN Training with Aggregation-Difference Aware Sampling."
     authors: "Zhen Song, Yu Gu, Tianyi Li+*, Qing Sun, Yanfeng Zhang, Christian S. Jensen, Ge Yu."
