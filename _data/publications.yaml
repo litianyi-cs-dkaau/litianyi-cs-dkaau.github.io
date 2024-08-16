@@ -6,6 +6,13 @@ papers:
     paper_pdf: ""
     conference: y
     year2025: y
+
+  - title: "Efficient Cost Modeling of Space-filling Curves."
+    authors: "Guanli Liu, Lars Kulik, Christian S. Jensen, Tianyi Li+, Renata Borovica-Gajic, Jianzhong Qi."
+    venue: "(CORE A*, CCF A) The 51st International Conference on Very Large Databases (<b>PVLDB</b>), 2025."
+    paper_pdf: ""
+    conference: y
+    year2025: y
   
   - title: "ADGNN: Towards Scalable GNN Training with Aggregation-Difference Aware Sampling."
     authors: "Zhen Song, Yu Gu, Tianyi Li+*, Qing Sun, Yanfeng Zhang, Christian S. Jensen, Ge Yu."
