@@ -1,6 +1,6 @@
 awards:
-  - name: "Best Paper"
-    conference: The 36th IEEE International Conference on Data Engineering (ICDE)
+  - name: "Best Paper <b>(first author)</b>"
+    conference: The 36th IEEE International Conference on Data Engineering (ICDE) <i>(CORE A*, CCF A)</i>
     time: 2022
 
   - name: Best Paper
