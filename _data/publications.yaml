@@ -7,8 +7,15 @@ papers:
     conference: y
     year2025: y
 
-   - title: "LEAP: A Low-cost Spark SQL Query Optimizer using Pairwise Comparison."
+  - title: "LEAP: A Low-cost Spark SQL Query Optimizer using Pairwise Comparison."
     authors: "Junhao Ye, Jiahui Li, Lu Chen, Yuren Mao, Yunjun Gao, Tianyi Li+"
+    venue: "(CORE A*, CCF A) The 51st International Conference on Very Large Databases (<b>PVLDB</b>), 2025."
+    paper_pdf: ""
+    conference: y
+    year2025: y
+
+  - title: "Quantifying Point Contributions: A Lightweight Framework for Efficient and Effective Query-Driven Trajectory Simplification"
+    authors: "Yumeng Song, Yu Gu, Tianyi Li+*, Yushuai Li, Christian S. Jensen, Ge Yu"
     venue: "(CORE A*, CCF A) The 51st International Conference on Very Large Databases (<b>PVLDB</b>), 2025."
     paper_pdf: ""
     conference: y
