@@ -11,13 +11,6 @@ services:
     role: PC Member
     conference: y
     
- <!-- - title: "Mathematics, Special Issue \"Mathematical Modeling for Parallel and Distributed Processing\""-->
- <!--  role: Leading Guest Editor-->
- <!--  journal: y-->
-
- <!--- title: "The institution of Engineering and Technology (IET), Special Issue \"Distributed Optimization and Machine Learning for Resilient Energy Systems\""-->
- <!--   role: Guest Editor-->
- <!--  journal: y-->
 
 
  
