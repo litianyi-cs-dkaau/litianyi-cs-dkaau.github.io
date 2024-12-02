@@ -85,6 +85,13 @@ papers:
     paper_pdf: ""
     journal: y
     year2024: y
+    
+  - title: "Digital Twin for Secure Peer-to-Peer Trading in Cyber-Physical Energy Systems."
+    authors: Yushuai Li, Peiyuan Guan, Tianyi Li+, Kim Guldstrand Larsen, Marco Aiello, Torben Bach Pedersen, Tingwen Huang, Yan Zhang."
+    venue: "(JCR Q1, CCF B)IEEE Transactions on Network Science and Engineering (<b>TNSE</b>), 2024."
+    paper_pdf: ""
+    journal: y
+    year2022: y
 
   - title: "FedAPT: Joint Adaptive Parameter Freezing and Resource Allocation for Communication-Efficient Federated Vehicular Networks."
     authors: "Jia Wu, Tingyi Dai, Peiyuan Guan, Su Liu, Fangfang Gou, Amir Taherkordi, Yushuai Li, Tianyi Li+."
@@ -171,8 +178,8 @@ papers:
     year2022: y
 
   - title: "Distributed Resilient Double-Gradient-Descent Based Energy Management Strategy for Multi-Energy System under DoS Attacks."
-    authors: "Yushuai Li, Tianyi Li+, Huaguang Zhang, Xiangpeng Xie, Qiuye Sun. "
-    venue: "(JCR Q1, CCF B)IEEE Transactions on Network Science and Engineering (<b>TNSE</b>), 2022 ."
+    authors: "Yushuai Li, Tianyi Li+, Huaguang Zhang, Xiangpeng Xie, Qiuye Sun."
+    venue: "(JCR Q1, CCF B)IEEE Transactions on Network Science and Engineering (<b>TNSE</b>), 2022."
     paper_pdf: ""
     journal: y
     year2022: y
