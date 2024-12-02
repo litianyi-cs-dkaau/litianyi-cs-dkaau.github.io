@@ -91,7 +91,7 @@ papers:
     venue: "(JCR Q1, CCF B)IEEE Transactions on Network Science and Engineering (<b>TNSE</b>), 2024."
     paper_pdf: ""
     journal: y
-    year2022: y
+    year2024: y
 
   - title: "FedAPT: Joint Adaptive Parameter Freezing and Resource Allocation for Communication-Efficient Federated Vehicular Networks."
     authors: "Jia Wu, Tingyi Dai, Peiyuan Guan, Su Liu, Fangfang Gou, Amir Taherkordi, Yushuai Li, Tianyi Li+."
