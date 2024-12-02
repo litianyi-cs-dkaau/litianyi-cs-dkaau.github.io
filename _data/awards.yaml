@@ -3,7 +3,11 @@ awards:
     conference: The 36th IEEE International Conference on Data Engineering (ICDE)
     time: 2022.  <i>(CORE A*, CCF A)</i>
 
-  - name: Best Paper
+  - name: "Best Paper <b>(corresponding author)</b>"
+    conference: The 8th IEEE Conference on Energy Internet and Energy System Integration (IEEE $EI^2$)
+    time: 2024.
+
+  - name: "Best Paper <b>(corresponding author)</b>"
     conference: International Conference on Cyber-energy Systems and Intelligent Energies (ICCSIE)
     time: 2023.
 
