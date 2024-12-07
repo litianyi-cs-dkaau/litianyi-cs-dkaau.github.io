@@ -1,4 +1,8 @@
 services:
+  - title: "IEEE Network Magazine"
+    role: Associate Editor
+    journal: y
+
   - title: "21st EAI International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services (MobiQuitous 2024)"
     role: Workshop Co-chair
     conference: y
