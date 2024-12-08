@@ -11,6 +11,16 @@ services:
   - title: "ICDE 2025, AAAI 2024-2025, IJCAI 2024, KDD 2023-2025, CIKM 2022-2024, SDM 2024, IEEE BigData 2024"
     role: PC Member
     conference: y
+
+  - title: "IEEE Transactions on Intelligent Vehicles"
+    role: Associate Editor
+    journal: y
+
+  - title: "IEEE Network Magazine"
+    role: Associate Editor
+    journal: y
+    
+
     
 
 
