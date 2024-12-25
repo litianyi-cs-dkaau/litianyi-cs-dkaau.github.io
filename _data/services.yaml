@@ -16,7 +16,7 @@ services:
     role: Associate Editor
     journal: y
 
-  - title: "IEEE Network Magazine"
+  - title: "IEEE Network"
     role: Associate Editor
     journal: y
     
