@@ -440,7 +440,16 @@ I was a recipient of <a href="https://icde2022.ieeecomputer.my/best-papers/">ICD
   {% endfor %}
 </div>
 
-
+<!-- ========== VISITOR MAP ========== -->
+<div class="docs-section" id="visitors">
+  <h4>Visitor Statistics</h4> 
+  <div class="tab-content">
+    <!-- Map View -->
+    <div class="tab-pane active" id="visitor-map">
+      <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=z1oLjFXmwB3-cdb2T28B7e4zMcL5Ds5RlRa4aKfbHc4&cl=ffffff&w=a"></script>
+    </div>
+ </div>
+</div>
 
 <!-- ========== RESUME ========== -->
 <!-- The Timeline -->
@@ -473,3 +482,26 @@ I was a recipient of <a href="https://icde2022.ieeecomputer.my/best-papers/">ICD
   </p>
 
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Get all tab buttons
+  const tabButtons = document.querySelectorAll('.tab-nav .button');
+  
+  // Add click event listener to each button
+  tabButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      // Remove active class from all buttons and panes
+      tabButtons.forEach(btn => btn.classList.remove('active'));
+      document.querySelectorAll('.tab-pane').forEach(pane => pane.classList.remove('active'));
+      
+      // Add active class to clicked button
+      this.classList.add('active');
+      
+      // Show corresponding tab pane
+      const targetId = this.getAttribute('data-ref');
+      document.querySelector(targetId).classList.add('active');
+    });
+  });
+});
+</script>
