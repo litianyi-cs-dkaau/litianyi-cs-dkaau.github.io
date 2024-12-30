@@ -86,6 +86,13 @@ papers:
     journal: y
     year2024: y
     
+  - title: "UniTE: A Survey and Unified Pipeline for Pre-training Spatiotemporal Trajectory Embeddings."
+    authors: "Yan Lin, Zeyu Zhou, Yicheng Liu, Haochen Lv, Haomin Wen, Tianyi Li+, Yushuai Li, Christian S. Jensen, Shengnan Guo, Youfang Lin, Huaiyu Wan."
+    venue: "(JCR Q1, CCF A) IEEE Transactions on Knowledge and Data Engineering (<b>TKDE</b>), 2024."
+    paper_pdf: ""
+    journal: y
+    year2024: y
+    
   - title: "Digital Twin for Secure Peer-to-Peer Trading in Cyber-Physical Energy Systems."
     authors: Yushuai Li, Peiyuan Guan, Tianyi Li+, Kim Guldstrand Larsen, Marco Aiello, Torben Bach Pedersen, Tingwen Huang, Yan Zhang."
     venue: "(JCR Q1, CCF B)IEEE Transactions on Network Science and Engineering (<b>TNSE</b>), 2024."
