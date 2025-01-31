@@ -1,7 +1,7 @@
 papers:
 
   - title: "SWASH: A Flexible Communication Framework with Sliding Window-Based Cache Sharing for Scalable DGNN Training."
-    authors: "Zhen Song, Yu Gu, Tianyi Li, Yushuai Li, Qing Sun, Yanfeng Zhang, Christian S. Jensen, Ge Yu."
+    authors: "Zhen Song, Yu Gu, Tianyi Li+, Yushuai Li, Qing Sun, Yanfeng Zhang, Christian S. Jensen, Ge Yu."
     venue: "(CORE A*, CCF A)  The 2025 ACM SIGMOD/PODS International Conference on Management of Data (<b>SIGMOD</b>), 2025."
     paper_pdf: ""
     conference: y
