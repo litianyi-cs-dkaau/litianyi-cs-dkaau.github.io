@@ -8,7 +8,7 @@ services:
     role: PC Co-chair
     conference: y
     
-  - title: "PVLDB 2026, ICDE 2025, AAAI 2024-2025, IJCAI 2024, KDD 2023-2025, CIKM 2022-2024, SDM 2024, IEEE BigData 2024"
+  - title: "PVLDB 2026, ICDE 2025, AAAI 2024-2025, IJCAI 2024-2025, KDD 2023-2025, CIKM 2022-2024, SDM 2024, IEEE BigData 2024"
     role: PC Member
     conference: y
 
