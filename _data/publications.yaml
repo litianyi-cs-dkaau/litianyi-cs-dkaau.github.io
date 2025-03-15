@@ -1,5 +1,6 @@
 papers:
-
+ 
+ 
   - title: "SimRN: Trajectory Similarity Learning in Road Networks based on Distributed Deep Reinforcement Learning."
     authors: "Danlei Hu, Yilin Li, Lu Chen, Ziquan Fang, Yushuai Li, Yunjun Gao, Tianyi Li+"
     venue: "(CORE A*, CCF A) The 51st International Conference on Very Large Databases (<b>PVLDB</b>), 2025."
@@ -49,7 +50,14 @@ papers:
     paper_pdf: ""
     conference: y
     year2025: y
-  
+
+  - title: "Joint V2V Group Association and Transmission Power Control in Federated Vehicular Networks."
+    authors: "Su Liu, Peiyuan Guan, Yushuai Li, Tianyi Li+, Zolaikha Zolfagharian, Jiong Yu, Tingwen Huang."
+    venue: "(JCR Q1, CCF C) IEEE Internet of Things Journal (<b>IoTJ</b>), 2025."
+    paper_pdf: ""
+    journal: y
+    year2025: y
+    
   - title: "ADGNN: Towards Scalable GNN Training with Aggregation-Difference Aware Sampling."
     authors: "Zhen Song, Yu Gu, Tianyi Li+*, Qing Sun, Yanfeng Zhang, Christian S. Jensen, Ge Yu."
     venue: "(CORE A*, CCF A) The 2024 ACM SIGMOD/PODS International Conference on Management of Data (<b>SIGMOD</b>), 2024."
