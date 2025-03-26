@@ -2,7 +2,7 @@ papers:
  
  
   - title: "SimRN: Trajectory Similarity Learning in Road Networks based on Distributed Deep Reinforcement Learning."
-    authors: "Danlei Hu, Yilin Li, Lu Chen, Ziquan Fang, Yushuai Li, Yunjun Gao, Tianyi Li+"
+    authors: "Danlei Hu, Yilin Li, Lu Chen, Ziquan Fang, Yushuai Li, Yunjun Gao, Tianyi Li+*."
     venue: "(CORE A*, CCF A) The 51st International Conference on Very Large Databases (<b>PVLDB</b>), 2025."
     paper_pdf: ""
     conference: y
