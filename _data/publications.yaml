@@ -1,5 +1,10 @@
 papers:
- 
+  - title: "VGQ: Enabling Verifiable Graph Queries on Blockchain Systems."
+    authors: "Zhongming Yao, Tianyi Li+*, Junchang Xin, Yushuai Li, Chenxu Wang, Zhiqiong Wang, Divesh Srivastava, Christian S. Jensen"
+    venue: "(CORE A*, CCF A) The 41st IEEE International Conference on Data Engineering (<b>ICDE</b>), 2025."
+    paper_pdf: ""
+    conference: y
+    year2025: y
  
   - title: "SimRN: Trajectory Similarity Learning in Road Networks based on Distributed Deep Reinforcement Learning."
     authors: "Danlei Hu, Yilin Li, Lu Chen, Ziquan Fang, Yushuai Li, Yunjun Gao, Tianyi Li+*."
