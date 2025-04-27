@@ -5,6 +5,12 @@ students:
       topic: "Trajectory data cleaning"
       phd: y
 
+    - name: "Danlei Hu"
+      time: "March 2025 to March 2026"
+      type: "Ph.D. candidate from Beijing Jiaotong University"
+      topic: "Spatio-temporal Data Analysis"
+      visiting: y
+      
     - name: "Xiaowei Mao"
       time: "September 2024 to Feburary 2025"
       type: "Ph.D. candidate from Beijing Jiaotong University"
