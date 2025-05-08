@@ -1,4 +1,18 @@
 papers:
+  - title: "RobustZero: Enhancing MuZero Reinforcement Learning Robustness to State Perturbations."
+    authors: "Yushuai Li, Hengyu Liu, Torben Bach Pedersen, Yuqiang He, Kim Guldstrand Larsen, Lu Chen, Christian S. Jensen, Jiachen Xu, Tianyi Li+."
+    venue: "(CORE A*, CCF A) The 42nd International Conference on Machine Learning (<b>ICML</b>), 2025."
+    paper_pdf: ""
+    conference: y
+    year2025: y
+
+  - title: "Arrow: Accelerator for Time Series Causal Discovery with Time Weaving."
+    authors: "Yuanyuan Yao, Yuan Dong, Lu Chen, Kun Kuang, Ziquan Fang, Cheng Long, Yunjun Gao, Tianyi Li+."
+    venue: "(CORE A*, CCF A) The 42nd International Conference on Machine Learning (<b>ICML</b>), 2025."
+    paper_pdf: ""
+    conference: y
+    year2025: y
+
   - title: "VGQ: Enabling Verifiable Graph Queries on Blockchain Systems."
     authors: "Zhongming Yao, Tianyi Li+*, Junchang Xin, Yushuai Li, Chenxu Wang, Zhiqiong Wang, Divesh Srivastava, Christian S. Jensen"
     venue: "(CORE A*, CCF A) The 41st IEEE International Conference on Data Engineering (<b>ICDE</b>), 2025."
