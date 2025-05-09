@@ -1,6 +1,6 @@
 papers:
   - title: "RobustZero: Enhancing MuZero Reinforcement Learning Robustness to State Perturbations."
-    authors: "Yushuai Li, Hengyu Liu, Torben Bach Pedersen, Yuqiang He, Kim Guldstrand Larsen, Lu Chen, Christian S. Jensen, Jiachen Xu, Tianyi Li+."
+    authors: "Yushuai Li, Hengyu Liu, Torben Bach Pedersen, Yuqiang He, Kim Guldstrand Larsen, Lu Chen, Christian S. Jensen, Jiachen Xu, Tianyi Li+*."
     venue: "(CORE A*, CCF A) The 42nd International Conference on Machine Learning (<b>ICML</b>), 2025."
     paper_pdf: ""
     conference: y
