@@ -4,7 +4,7 @@ papers:
     venue: "(CORE A*, CCF A) ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (<b>KDD</b>), 2025."
     paper_pdf: " "
     conference: y
-    year2022: y
+    year2025: y
 
   - title: "RobustZero: Enhancing MuZero Reinforcement Learning Robustness to State Perturbations."
     authors: "Yushuai Li, Hengyu Liu, Torben Bach Pedersen, Yuqiang He, Kim Guldstrand Larsen, Lu Chen, Christian S. Jensen, Jiachen Xu, Tianyi Li+*."
