@@ -1,6 +1,6 @@
 papers:
   - title: "Toast: Task-Oriented Multi-dimensional Augmentation for Spatio-Temporal Trajectory Data."
-    authors: "Junhao Zhu, Tao Wang, Lu Chen, Ziquan Fang, Yunjun Gao, Tianyi Li"
+    authors: "Junhao Zhu, Tao Wang, Lu Chen, Ziquan Fang, Yunjun Gao, Tianyi Li+."
     venue: "(CORE A*, CCF A) ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (<b>KDD</b>), 2025."
     paper_pdf: " "
     conference: y
