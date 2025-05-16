@@ -1,4 +1,11 @@
 papers:
+  - title: "Toast: Task-Oriented Multi-dimensional Augmentation for Spatio-Temporal Trajectory Data."
+    authors: "Junhao Zhu, Tao Wang, Lu Chen, Ziquan Fang, Yunjun Gao, Tianyi Li"
+    venue: "(CORE A*, CCF A) ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (<b>KDD</b>), 2025."
+    paper_pdf: " "
+    conference: y
+    year2022: y
+
   - title: "RobustZero: Enhancing MuZero Reinforcement Learning Robustness to State Perturbations."
     authors: "Yushuai Li, Hengyu Liu, Torben Bach Pedersen, Yuqiang He, Kim Guldstrand Larsen, Lu Chen, Christian S. Jensen, Jiachen Xu, Tianyi Li+*."
     venue: "(CORE A*, CCF A) The 42nd International Conference on Machine Learning (<b>ICML</b>), 2025."
@@ -220,7 +227,7 @@ papers:
 
   - title: "ClusterEA: Scalable Entity Alignment with Stochastic Training and Normalized Mini-batch Similarities."
     authors: "Yunjun Gao, Xiaoze Liu, Jingxuan Wu, Tianyi Li+, Pengfei Wang, Lu Chen."
-    venue: "(CORE A*, CCF A) The 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (<b>KDD</b>), 2022."
+    venue: "(CORE A*, CCF A) ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (<b>KDD</b>), 2022."
     paper_pdf: " "
     conference: y
     year2022: y
