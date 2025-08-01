@@ -5,6 +5,12 @@ students:
       topic: "Trajectory data cleaning"
       phd: y
 
+    - name: "Chenhao Wang"
+      time: "August 2025 to September 2025"
+      type: "Ph.D. candidate from University of Electronic Science and Technology of China"
+      topic: "Spatio-temporal Data Analysis"
+      visiting: y
+
     - name: "Danlei Hu"
       time: "March 2025 to March 2026"
       type: "Ph.D. candidate from Zhejiang University"
@@ -14,7 +20,7 @@ students:
     - name: "Xiaowei Mao"
       time: "September 2024 to Feburary 2025"
       type: "Ph.D. candidate from Beijing Jiaotong University"
-      topic: "Spatio-temporal Data Analysis"
+      topic: "Travel time prediction"
       visiting: y
 
     - name: "Zhongming Yao"
