@@ -11,7 +11,11 @@ services:
   - title: "PVLDB 2026, ICDE 2025-2026, ECAI 2025, ICDM 2025, AAAI 2024-2026, IJCAI 2024-2025, KDD 2023-2025, CIKM 2022-2025, ECAI 2025, SDM 2024, IEEE BigData 2024"
     role: PC Member
     conference: y
-
+    
+  - title: "IEEE Transactions on Industrial Informatics"
+    role: Associate Editor
+    journal: y
+    
   - title: "IEEE Transactions on Intelligent Vehicles"
     role: Associate Editor
     journal: y
