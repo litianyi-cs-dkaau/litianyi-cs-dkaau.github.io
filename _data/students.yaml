@@ -39,10 +39,17 @@ students:
       time: "October 2022 to November 2023"
       type: "Ph.D. candidate from Northeastern Univeristy"
       topic: "Spatio-Temporal Graph Neural Networks"
-      visiting: y  
+      visiting: y 
+      
+    - name: "Kai Zhao"
+      time: "April 2025 to October 2025"
+      type: "Postdoc Researcher"
+      topic: "Time Series Prediction"
+      link: https://yumengs.top
+      postdoc: y
 
-    - name: "Yumeng Song"
-      time: "November 2024 to present"
+    - name: "Yumeng Song (now is an Assistant Professor with Aalborg University)"
+      time: "November 2024 to August 2025"
       type: "Postdoc Researcher"
       topic: "Trajectory Analytics"
       link: https://yumengs.top
@@ -55,13 +62,13 @@ students:
       link: https://hengyuliu.com/
       postdoc: y
             
-    - name: "Haomin Yu"
+    - name: "Haomin Yu (now is an Assistant Professor with University of Salford)"
       time: "March 2024 to September 2024"
       type: "Postdoc Researcher"
       topic: "Maritime Data Prediction"
       postdoc: y
 
-    - name: "Tiantian Liu"
+    - name: "Tiantian Liu (now is an Assistant Professor with Aalborg University)"
       time: "September 2023 to January 2024"
       type: "Postdoc Researcher"
       topic: "Optimized Maritime Communication"
@@ -72,3 +79,4 @@ students:
 
 
     
+
