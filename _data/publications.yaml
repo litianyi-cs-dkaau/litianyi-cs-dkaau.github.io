@@ -1,4 +1,11 @@
 papers:
+  - title: "MH-GIN: Multi-scale Heterogeneous Graph-based Imputation Network for AIS Data."
+    authors: "Hengyu Liu, Tianyi Li+*, Yuqiang He, Kristian Torp, Yushuai Li, Christian S. Jensen."
+    venue: "(CORE A*, CCF A) The 52nd International Conference on Very Large Databases (<b>PVLDB</b>), 2026."
+    paper_pdf: "https://www.vldb.org/pvldb/vol19/p170-li.pdf"
+    conference: y
+    year2026: y
+
   - title: "Toast: Task-Oriented Multi-dimensional Augmentation for Spatio-Temporal Trajectory Data."
     authors: "Junhao Zhu, Tao Wang, Lu Chen, Ziquan Fang, Yunjun Gao, Tianyi Li+."
     venue: "(CORE A*, CCF A) ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (<b>KDD</b>), 2025."
