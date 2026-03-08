@@ -1,5 +1,5 @@
 papers:
-
+    
   - title: "FastGNAS: Accelerating and Scaling Graph Neural Architecture Search on Multi-GPUs via Ring-Based Model Migration."
     authors: "Zhen Song, Hao Li, Tianyi Li+, Yu Gu, Yushuai Li, Yanfeng Zhang, Christian S. Jensen, Lizhen Cui, Gu Yu."
     venue: "(CORE A*, CCF A) International Conference on Management of Data (<b>SIGMOD</b>), 2026."
@@ -42,10 +42,17 @@ papers:
     conference: y
     year2026: y
 
+  - title: "TCRL: Temporal-Coupled Adversarial Training for Robust Constrained Reinforcement Learning in Worst-Case Scenarios."
+    authors: "Wentao Xu, Zhongming Yao, Weihao Li, Zhenghang Song, Yumeng Song, Tianyi Li, Yushuai Li."
+    venue: "(CORE A*, CCF A) International Conference on Autonomous Agents and Multiagent Systems (<b>AAMAS</b>), 2026."
+    paper_pdf: "https://arxiv.org/pdf/2602.13040"
+    conference: y
+    year2026: y
+
   - title: "Toast: Task-Oriented Multi-dimensional Augmentation for Spatio-Temporal Trajectory Data."
     authors: "Junhao Zhu, Tao Wang, Lu Chen, Ziquan Fang, Yunjun Gao, Tianyi Li+."
     venue: "(CORE A*, CCF A) ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (<b>KDD</b>), 2025."
-    paper_pdf: " "
+    paper_pdf: ""
     conference: y
     year2025: y
 
@@ -316,6 +323,7 @@ papers:
   
 
     
+
 
 
 
