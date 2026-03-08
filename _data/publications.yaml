@@ -14,8 +14,15 @@ papers:
     conference: y
     year2026: y
 
-  - title: "TS3D: A Temporal Multimodal Dataset for Distributed Database System Analysis. "
+  - title: "TS3D: A Temporal Multimodal Dataset for Distributed Database System Analysis."
     authors: "Yuanyuan Yao, Yuhan Shi, Yian Wei, Lu Chen, Mourad Khayati, Cheng Long, Tianyi Li+."
+    venue: "(CORE A*, CCF A) International Conference on Data Engineering (<b>ICDE</b>), 2026."
+    paper_pdf: ""
+    conference: y
+    year2026: y
+
+  - title: "LAMP: A Dual-Mode Framework for Database Workload Memory Prediction."
+    authors: "Guoze Xue, Lu Chen, Ziquan Fang, Yushuai Li, Tianyi Li+, Torben Bach Pedersen."
     venue: "(CORE A*, CCF A) International Conference on Data Engineering (<b>ICDE</b>), 2026."
     paper_pdf: ""
     conference: y
@@ -302,6 +309,7 @@ papers:
   
 
     
+
 
 
 
