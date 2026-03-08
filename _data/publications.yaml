@@ -1,7 +1,13 @@
 papers:
 
    - title: "FastGNAS: Accelerating and Scaling Graph Neural Architecture Search on Multi-GPUs via Ring-Based Model Migration."
-    authors: "Zhen Song, Hao Li, T. Li+*, Yu Gu, Yushuai Li, Yanfeng Zhang, Chrisrian S. Jensen, Lizhen Cui, Gu Yu."
+    authors: "Zhen Song, Hao Li, T. Li+, Yu Gu, Yushuai Li, Yanfeng Zhang, Christian S. Jensen, Lizhen Cui, Gu Yu."
+    venue: "(CORE A*, CCF A) International Conference on Management of Data (\textbf{SIGMOD}) (<b>PVLDB</b>), 2026."
+    conference: y
+    year2026: y
+    
+   - title: "Beyond Relational: Semantic-Aware Multi-Modal Analytics with LLM-Native Query Optimization.."
+    authors: "Junhao Zhu, Lu Chen, Xiangyu Ke, Ziquan Fang, Tianyi Li, Yunyun Gao, Christian S. Jensen. "
     venue: "(CORE A*, CCF A) International Conference on Management of Data (\textbf{SIGMOD}) (<b>PVLDB</b>), 2026."
     conference: y
     year2026: y
@@ -287,5 +293,6 @@ papers:
   
 
     
+
 
 
