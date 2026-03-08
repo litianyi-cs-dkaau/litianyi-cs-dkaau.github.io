@@ -6,10 +6,16 @@ papers:
     conference: y
     year2026: y
     
-   - title: "Beyond Relational: Semantic-Aware Multi-Modal Analytics with LLM-Native Query Optimization.."
-    authors: "Junhao Zhu, Lu Chen, Xiangyu Ke, Ziquan Fang, Tianyi Li, Yunyun Gao, Christian S. Jensen. "
+   - title: "Beyond Relational: Semantic-Aware Multi-Modal Analytics with LLM-Native Query Optimization."
+    authors: "Junhao Zhu, Lu Chen, Xiangyu Ke, Ziquan Fang, Tianyi Li+, Yunyun Gao, Christian S. Jensen."
     venue: "(CORE A*, CCF A) International Conference on Management of Data (<b>SIGMOD</b>), 2026."
     paper_pdf: "https://arxiv.org/pdf/2511.19830"
+    conference: y
+    year2026: y
+
+  - title: "TS3D: A Temporal Multimodal Dataset for Distributed Database System Analysis. "
+    authors: "Yuanyuan Yao, Yuhan Shi, Yian Wei, Lu Chen, M. Khayati, Cheng Long, Tianyi Li+."
+    venue: "(CORE A*, CCF A) International Conference on Data Engineering ( (<b>ICDE</b>), 2026."
     conference: y
     year2026: y
     
@@ -294,6 +300,7 @@ papers:
   
 
     
+
 
 
 
