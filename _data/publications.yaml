@@ -15,7 +15,7 @@ papers:
     year2026: y
 
   - title: "CLEAR: A Knowledge-Centric Vessel Trajectory Analysis Platform."
-    authors: "Hengyu Liu, Tianyi Li+,  Haoyu Wang, Kristian Torp, Yushuai Li, Tiancheng Zhang, Torben Bach Pedersen, Christian S Jensen."
+    authors: "Hengyu Liu, Tianyi Li+*,  Haoyu Wang, Kristian Torp, Yushuai Li, Tiancheng Zhang, Torben Bach Pedersen, Christian S Jensen."
     venue: "(CORE A*, CCF A) International Conference on Management of Data (<b>SIGMOD</b>), 2026."
     paper_pdf: ""
     conference: y
@@ -316,6 +316,7 @@ papers:
   
 
     
+
 
 
 
