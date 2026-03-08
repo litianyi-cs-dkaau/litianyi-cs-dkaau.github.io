@@ -3,6 +3,7 @@ papers:
    - title: "FastGNAS: Accelerating and Scaling Graph Neural Architecture Search on Multi-GPUs via Ring-Based Model Migration."
     authors: "Zhen Song, Hao Li, T. Li+, Yu Gu, Yushuai Li, Yanfeng Zhang, Christian S. Jensen, Lizhen Cui, Gu Yu."
     venue: "(CORE A*, CCF A) International Conference on Management of Data (<b>SIGMOD</b>), 2026."
+    paper_pdf: ""
     conference: y
     year2026: y
     
@@ -15,7 +16,8 @@ papers:
 
   - title: "TS3D: A Temporal Multimodal Dataset for Distributed Database System Analysis. "
     authors: "Yuanyuan Yao, Yuhan Shi, Yian Wei, Lu Chen, M. Khayati, Cheng Long, Tianyi Li+."
-    venue: "(CORE A*, CCF A) International Conference on Data Engineering ( (<b>ICDE</b>), 2026."
+    venue: "(CORE A*, CCF A) International Conference on Data Engineering (<b>ICDE</b>), 2026."
+    paper_pdf: ""
     conference: y
     year2026: y
     
@@ -300,6 +302,7 @@ papers:
   
 
     
+
 
 
 
