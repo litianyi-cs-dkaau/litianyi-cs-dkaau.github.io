@@ -1,15 +1,27 @@
 services:
 
-  - title: "21st EAI International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services (MobiQuitous 2024)"
-    role: Workshop Co-chair
-    conference: y
-
-  - title: "2024 IEEE International Conference on Communications, Control, and Computing Technologies for Smart Grids (SmartGridComm),  Workshop on Optimal and Green Operation of Multi-energy Smart Grids"
+  - title: "IEEE International Conference on Mobile Data Management (MDM 2026) Workshop on Spatio-Temoral Data and Foundation Models"
     role: PC Co-chair
     conference: y
     
-  - title: "PVLDB 2026, ICDE 2025-2026, ECAI 2025, ICDM 2025, AAAI 2024-2026, IJCAI 2024-2025, KDD 2023-2025, CIKM 2022-2025, ECAI 2025, SDM 2024, IEEE BigData 2024"
-    role: PC Member
+  - title: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2026)"
+    role: Area Chair
+    conference: y
+
+  - title: "International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems (BlockSys'2026) "
+    role: Publicity Co-chair
+    conference: y
+    
+  - title: "International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services (MobiQuitous 2024)"
+    role: Workshop Co-chair
+    conference: y
+
+  - title: "IEEE International Conference on Communications, Control, and Computing Technologies for Smart Grids (SmartGridComm 2024)  Workshop on Optimal and Green Operation of Multi-energy Smart Grids"
+    role: PC Co-chair
+    conference: y
+    
+  - title: "PVLDB 2026-2027, ICDE 2025-2026, ICML 2026, AAAI 2024-2026, IJCAI 2024-2026, KDD 2023-2026"
+    role: PC Member (selected)
     conference: y
     
   - title: "IEEE Transactions on Industrial Informatics"
