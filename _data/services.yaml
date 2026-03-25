@@ -20,7 +20,7 @@ services:
     role: PC Co-chair
     conference: y
     
-  - title: "PVLDB 2026-2027, ICDE 2025-2026, ICML 2026, AAAI 2024-2026, IJCAI 2024-2026, KDD 2023-2026, NeurIPS 2026, WWW 2026"
+  - title: "PVLDB 2026-2027, ICDE 2025-2026, ICML 2026, AAAI 2024-2026, IJCAI 2024-2026, KDD 2023-2026, WWW 2026"
     role: PC Member (selected)
     conference: y
     
