@@ -41,6 +41,13 @@ papers:
     paper_pdf: "https://www.vldb.org/pvldb/vol19/p170-li.pdf"
     conference: y
     year2026: y
+        
+  - title: "Multimodal Knowledge Graph Completion via Relation-Aware Negative Sampling with Diffusion-based Interpolation."
+    authors: "Qian Ma, Linfei Dai, Zhongming Yao, Yu Gu, Tianyi Li*, Christian S. Jensen, Ge Yu."
+    venue: "(CORE A*, CCF A) International Conference on Very Large Databases (<b>PVLDB</b>), 2026."
+    paper_pdf: ""
+    conference: y
+    year2026: y
 
   - title: "TCRL: Temporal-Coupled Adversarial Training for Robust Constrained Reinforcement Learning in Worst-Case Scenarios."
     authors: "Wentao Xu, Zhongming Yao, Weihao Li, Zhenghang Song, Yumeng Song, Tianyi Li+, Yushuai Li."
