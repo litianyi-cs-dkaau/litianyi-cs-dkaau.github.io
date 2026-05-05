@@ -1,10 +1,14 @@
 services:
 
+  - title: "IEEE International Conference on Data Engineering (ICDE 2027) (CCF A, CORE A*)"
+    role: Demo Co-chair, Meta Reviewer
+    conference: y
+
   - title: "IEEE International Conference on Mobile Data Management (MDM 2026) Workshop on Spatio-Temoral Data and Foundation Models"
     role: PC Co-chair
     conference: y
     
-  - title: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2026)"
+  - title: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2026) (CCF A, CORE A*)"
     role: Area Chair
     conference: y
 
