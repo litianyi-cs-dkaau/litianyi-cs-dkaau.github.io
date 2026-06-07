@@ -64,7 +64,7 @@ papers:
     year2026: y
         
   - title: "Multimodal Knowledge Graph Completion via Relation-Aware Negative Sampling with Diffusion-based Interpolation."
-    authors: "Qian Ma, Linfei Dai, Zhongming Yao, Yu Gu, Tianyi Li*, Christian S. Jensen, Ge Yu."
+    authors: "Qian Ma, Linfei Dai, Zhongming Yao, Yu Gu, Tianyi Li+*, Christian S. Jensen, Ge Yu."
     venue: "(CORE A*, CCF A) International Conference on Very Large Databases (<b>PVLDB</b>), 2026."
     paper_pdf: ""
     conference: y
