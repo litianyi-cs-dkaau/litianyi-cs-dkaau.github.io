@@ -16,10 +16,10 @@ papers:
 
   - title: "Position: Reliable AI Needs to Externalize Implicit Knowledge: A Human–AI Collaboration Perspective."
     authors: "Hengyu Liu, Tianyi Li+, Zhihong Cui, Yushuai Li, Zhangkai Wu, Torben Bach Pedersen, Kristian Torp, Christian S. Jensen."
-    venue: "(CORE A*, CCF A) The 42nd International Conference on Machine Learning (<b>ICML</b>), 2025."
+    venue: "(CORE A*, CCF A) The 42nd International Conference on Machine Learning (<b>ICML</b>), 2026."
     paper_pdf: ""
     conference: y
-    year2025: y
+    year2026: y
   
   - title: "FastGNAS: Accelerating and Scaling Graph Neural Architecture Search on Multi-GPUs via Ring-Based Model Migration."
     authors: "Zhen Song, Hao Li, Tianyi Li+, Yu Gu, Yushuai Li, Yanfeng Zhang, Christian S. Jensen, Lizhen Cui, Gu Yu."
