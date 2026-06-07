@@ -56,6 +56,13 @@ papers:
     paper_pdf: ""
     conference: y
     year2026: y
+
+  - title: "PrivSTD: Differentially Private Spatio-temporal Trajectory Density Data Publication."
+    authors: "Shuzhan Ye, Yujia Hu, Lu Chen, Yangyang Wu, Zhikun Zhang, Tianyi Li+, Christian S. Jensen."
+    venue: "(CORE A*, CCF A) International Conference on Very Large Databases (<b>PVLDB</b>), 2026."
+    paper_pdf: ""
+    conference: y
+    year2026: y
     
   - title: "TCRL: Temporal-Coupled Adversarial Training for Robust Constrained Reinforcement Learning in Worst-Case Scenarios."
     authors: "Wentao Xu, Zhongming Yao, Weihao Li, Zhenghang Song, Yumeng Song, Tianyi Li+, Yushuai Li."
