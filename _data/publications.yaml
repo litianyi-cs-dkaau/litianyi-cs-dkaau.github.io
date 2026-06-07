@@ -71,6 +71,13 @@ papers:
     conference: y
     year2026: y
 
+  - title: "OneDB: A Distributed Multi-Metric Data Similarity Search System."
+    authors: "Tang Qian, Yifan Zhu, Lu Chen, Xiangyu Ke, Tianyi Li+, Christian S. Jensen."
+    venue: "(CORE A*, CCF A) ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (<b>KDD</b>), 2026."
+    paper_pdf: ""
+    conference: y
+    year2025: y
+
   - title: "Toast: Task-Oriented Multi-dimensional Augmentation for Spatio-Temporal Trajectory Data."
     authors: "Junhao Zhu, Tao Wang, Lu Chen, Ziquan Fang, Yunjun Gao, Tianyi Li+."
     venue: "(CORE A*, CCF A) ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (<b>KDD</b>), 2025."
