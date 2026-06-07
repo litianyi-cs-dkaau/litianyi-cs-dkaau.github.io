@@ -14,7 +14,7 @@ papers:
     conference: y
     year2026: y
 
-  - title: "Position: Reliable AI Needs to Externalize Implicit Knowledge: A Human–AI Collaboration Perspective."
+  - title: "Reliable AI Needs to Externalize Implicit Knowledge: A Human–AI Collaboration Perspective."
     authors: "Hengyu Liu, Tianyi Li+, Zhihong Cui, Yushuai Li, Zhangkai Wu, Torben Bach Pedersen, Kristian Torp, Christian S. Jensen."
     venue: "(CORE A*, CCF A) The 42nd International Conference on Machine Learning (<b>ICML</b>), 2026."
     paper_pdf: ""
