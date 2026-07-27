@@ -91,6 +91,13 @@ papers:
     conference: y
     year2026: y
 
+  - title: "SimCFT: Trajectory Similarity Computation via Dynamic Status Features and Noisy Point Mining."
+    authors: "Hongzhen Xiang, Chenxu Wang, Tianyi Li+, Shuyan Liu, Peng Han, Yushuai Li, Wei Wang, Christian S. Jensen."
+    venue: "(JCR Q1, CCF A) IEEE Transactions on Knowledge and Data Engineering (<b>TKDE</b>), 2026."
+    paper_pdf: ""
+    journal: y
+    year2026: y
+
 
   - title: "Toast: Task-Oriented Multi-dimensional Augmentation for Spatio-Temporal Trajectory Data."
     authors: "Junhao Zhu, Tao Wang, Lu Chen, Ziquan Fang, Yunjun Gao, Tianyi Li+."
@@ -99,6 +106,7 @@ papers:
     conference: y
     year2025: y
 
+        
   - title: "RobustZero: Enhancing MuZero Reinforcement Learning Robustness to State Perturbations."
     authors: "Yushuai Li, Hengyu Liu, Torben Bach Pedersen, Yuqiang He, Kim Guldstrand Larsen, Lu Chen, Christian S. Jensen, Jiachen Xu, Tianyi Li+*."
     venue: "(CORE A*, CCF A) The 42nd International Conference on Machine Learning (<b>ICML</b>), 2025."
